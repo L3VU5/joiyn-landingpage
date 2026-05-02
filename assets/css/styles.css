@@ -387,16 +387,18 @@ button { cursor: pointer; font-family: inherit; }
   border-radius: 100px;
   font-size: 0.88rem;
   font-weight: 500;
-  border: 1.5px solid var(--border);
-  background: var(--bg);
-  color: var(--text-secondary);
+  border: 1.5px solid var(--primary-light);
+  background: var(--primary-faint);
+  color: var(--primary-dark);
   transition: all 0.2s;
 }
 .interest-tag:hover {
+  background: var(--primary);
   border-color: var(--primary);
-  color: var(--primary);
-  background: var(--primary-faint);
+  color: #fff;
+  transform: translateY(-1px);
 }
+.interest-tag i { font-size: 1rem; color: inherit; line-height: 1; }
 
 /* ── Download CTA ────────────────────────────────────────────────────────────── */
 .cta-section {
@@ -715,7 +717,6 @@ button { cursor: pointer; font-family: inherit; }
 .step-number i  { font-size: 1.75rem; color: var(--primary); }
 .step:nth-child(2) .step-number i { color: #fff; }
 .icon i         { font-size: 1.1rem; color: var(--primary); }
-.interest-tag i { font-size: 1rem; color: inherit; line-height: 1; }
 
 /* ── Animations ──────────────────────────────────────────────────────────────── */
 @keyframes fadeUp {
