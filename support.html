@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support — Joiyn</title>
+  <meta name="description" content="Get help with Joiyn — frequently asked questions, contact information, and how to report issues." />
+  <meta name="theme-color" content="#388F8C" />
+  <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/images/icon.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- ── Navigation ─────────────────────────────────────────────────────────── -->
+  <header>
+    <nav class="nav">
+      <div class="container nav-inner">
+        <a href="index.html" class="nav-logo">
+          <img src="assets/images/icon.png" alt="Joiyn app icon" />
+          Joiyn
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="index.html#how-it-works">How it works</a></li>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="index.html#download" class="nav-cta">Download</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ── Page hero ──────────────────────────────────────────────────────────── -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>Help &amp; Support</h1>
+      <p>Find answers to common questions or get in touch with our team directly.</p>
+    </div>
+  </section>
+
+  <!-- ── Support content ────────────────────────────────────────────────────── -->
+  <div class="support-grid" id="contact">
+
+    <!-- Left: FAQ + contact info -->
+    <div class="contact-info">
+      <h2>Common Questions</h2>
+      <p>Browse our FAQ below. If you can't find what you're looking for, use the contact form and we'll get back to you as soon as possible.</p>
+
+      <ul class="faq-list">
+        <li class="faq-item">
+          <p class="faq-q">How do I create an account?</p>
+          <p class="faq-a">Download Joiyn from the App Store or Google Play, open the app, and tap "Sign Up". Enter your email address, create a password, and verify your email to get started.</p>
+        </li>
+        <li class="faq-item">
+          <p class="faq-q">How do I find events near me?</p>
+          <p class="faq-a">After setting up your profile and selecting your interests, Joiyn will show you events happening in your city. You can filter by activity type, date, or how far you're willing to travel.</p>
+        </li>
+        <li class="faq-item">
+          <p class="faq-q">How do I join an event?</p>
+          <p class="faq-a">Tap on any event to see details, then tap "Join". The event organiser will receive your request and can approve or decline it. You'll be notified of their decision.</p>
+        </li>
+        <li class="faq-item">
+          <p class="faq-q">How do I create my own event?</p>
+          <p class="faq-a">Tap the "+" button on the home screen. Fill in the activity type, location, date and time, and participant limits. Once published, other users can discover and request to join your event.</p>
+        </li>
+        <li class="faq-item">
+          <p class="faq-q">Can I cancel or leave an event?</p>
+          <p class="faq-a">Yes. Open the event from your "My Events" tab and tap "Leave Event". If you created the event, you can cancel it entirely — all participants will be notified automatically.</p>
+        </li>
+        <li class="faq-item">
+          <p class="faq-q">How do notifications work?</p>
+          <p class="faq-a">Joiyn sends push notifications for event invites, confirmations, cancellations, and participant updates. You can manage notification permissions in your device settings at any time.</p>
+        </li>
+        <li class="faq-item">
+          <p class="faq-q">How do I delete my account?</p>
+          <p class="faq-a">Go to your profile, open Settings, and select "Delete Account". This will permanently remove your account and all associated data. This action cannot be undone.</p>
+        </li>
+        <li class="faq-item">
+          <p class="faq-q">How do I report a user or event?</p>
+          <p class="faq-a">On any user profile or event page, tap the three-dot menu (⋯) and select "Report". Describe the issue and our team will review it promptly. You can also email us directly with details.</p>
+        </li>
+        <li class="faq-item">
+          <p class="faq-q">Is Joiyn free to use?</p>
+          <p class="faq-a">Yes, Joiyn is free to download and use. Core features including event discovery, joining events, and in-app chat are available at no cost.</p>
+        </li>
+      </ul>
+
+      <div style="margin-top:2.5rem;">
+        <h2>Contact Details</h2>
+        <div class="contact-detail" style="margin-top:1rem;">
+          <span class="icon">📧</span>
+          <div class="contact-detail-text">
+            <strong>Email Support</strong>
+            <span><a href="mailto:support@joiyn.app" style="color:var(--primary);">support@joiyn.app</a></span>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <span class="icon">⏱️</span>
+          <div class="contact-detail-text">
+            <strong>Response Time</strong>
+            <span>We aim to reply within 2 business days</span>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <span class="icon">🔒</span>
+          <div class="contact-detail-text">
+            <strong>Privacy Requests</strong>
+            <span>For data deletion or access requests, see our <a href="privacy.html" style="color:var(--primary);">Privacy Policy</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Contact form -->
+    <div>
+      <div class="form-card">
+        <h2>Send us a message</h2>
+        <form
+          id="contact-form"
+          onsubmit="handleSubmit(event)"
+          novalidate
+        >
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="topic">Topic</label>
+            <select id="topic" name="topic">
+              <option value="">Select a topic…</option>
+              <option value="account">Account &amp; profile</option>
+              <option value="events">Events &amp; joining</option>
+              <option value="notifications">Notifications</option>
+              <option value="privacy">Privacy &amp; data</option>
+              <option value="report">Report a user / event</option>
+              <option value="delete">Account deletion</option>
+              <option value="bug">Bug or technical issue</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Describe your question or issue in as much detail as possible…" required></textarea>
+          </div>
+          <button type="submit" class="btn-submit" id="submit-btn">Send Message</button>
+          <p id="form-status" style="margin-top:0.75rem;font-size:0.88rem;display:none;"></p>
+        </form>
+      </div>
+
+      <!-- Data deletion note -->
+      <div style="margin-top:1.5rem;padding:1.25rem;background:var(--bg-secondary);border-radius:var(--radius-lg);">
+        <p style="font-size:0.85rem;color:var(--text-secondary);margin:0;line-height:1.65;">
+          <strong style="color:var(--text);">Want to delete your data?</strong><br />
+          You can delete your Joiyn account directly from within the app: go to <strong>Profile → Settings → Delete Account</strong>. All your personal data will be permanently removed. If you need help with this, email us at <a href="mailto:support@joiyn.app" style="color:var(--primary);">support@joiyn.app</a>.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ── Footer ──────────────────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <img src="assets/images/icon.png" alt="Joiyn" />
+            Joiyn
+          </a>
+          <p>Meet people nearby through shared interests and real-world events.</p>
+        </div>
+        <div class="footer-col">
+          <h4>App</h4>
+          <ul>
+            <li><a href="index.html#features">Features</a></li>
+            <li><a href="index.html#how-it-works">How it works</a></li>
+            <li><a href="index.html#download">Download</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal &amp; Help</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="support.html#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Joiyn. All rights reserved.</span>
+        <div style="display:flex;gap:1.5rem;">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="support.html">Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function handleSubmit(e) {
+      e.preventDefault();
+      const btn = document.getElementById('submit-btn');
+      const status = document.getElementById('form-status');
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+
+      if (!email || !message) {
+        status.textContent = 'Please fill in all required fields.';
+        status.style.color = 'var(--error, #FF6B6B)';
+        status.style.display = 'block';
+        return;
+      }
+
+      btn.disabled = true;
+      btn.textContent = 'Sending…';
+
+      // Open default email client as fallback (no backend)
+      const topic = document.getElementById('topic').value;
+      const name = document.getElementById('name').value;
+      const subject = encodeURIComponent('Joiyn Support: ' + (topic || 'General enquiry'));
+      const body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + message);
+      window.location.href = 'mailto:support@joiyn.app?subject=' + subject + '&body=' + body;
+
+      status.textContent = 'Opening your email client… If nothing happens, email us directly at support@joiyn.app';
+      status.style.color = 'var(--primary)';
+      status.style.display = 'block';
+      btn.disabled = false;
+      btn.textContent = 'Send Message';
+    }
+  </script>
+
+</body>
+</html>
