@@ -399,12 +399,6 @@ button { cursor: pointer; font-family: inherit; }
   border-color: var(--primary);
   color: var(--primary);
   background: var(--primary-faint);
-  transform: translateY(-1px);
-}
-.interest-tag.active {
-  background: var(--primary);
-  color: #fff;
-  border-color: var(--primary);
 }
 
 /* ── Download CTA ────────────────────────────────────────────────────────────── */
