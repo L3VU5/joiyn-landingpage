@@ -69,16 +69,10 @@ button { cursor: pointer; font-family: inherit; }
 .nav-logo {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
-  font-weight: 700;
-  font-size: 1.35rem;
-  color: var(--primary);
-  letter-spacing: -0.02em;
 }
 .nav-logo img {
-  width: 36px;
-  height: 36px;
-  border-radius: 8px;
+  height: 28px;
+  width: auto;
 }
 .nav-links {
   display: flex;
@@ -485,7 +479,6 @@ button { cursor: pointer; font-family: inherit; }
   margin-bottom: 3rem;
 }
 .footer-brand .nav-logo {
-  color: #fff;
   margin-bottom: 0.75rem;
 }
 .footer-brand p {
