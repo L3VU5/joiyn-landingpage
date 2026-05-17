@@ -187,7 +187,7 @@ button { cursor: pointer; font-family: inherit; }
 .hero-badge {
   position: absolute;
   top: 12%;
-  left: -1rem;
+  left: -2rem;
   background: #fff;
   border-radius: var(--radius);
   box-shadow: var(--shadow-md);
@@ -210,9 +210,9 @@ button { cursor: pointer; font-family: inherit; }
 }
 .hero-badge-2 {
   top: auto;
-  bottom: 18%;
+  bottom: 12%;
   left: auto;
-  right: -1rem;
+  right: -2rem;
 }
 
 /* ── Social proof strip ──────────────────────────────────────────────────────── */
@@ -710,6 +710,62 @@ button { cursor: pointer; font-family: inherit; }
 .step-number i  { font-size: 1.75rem; color: var(--primary); }
 .step:nth-child(2) .step-number i { color: #fff; }
 .icon i         { font-size: 1.1rem; color: var(--primary); }
+
+/* ── App screenshots ─────────────────────────────────────────────────────────── */
+.screenshots { padding: var(--section-py) 0; background: var(--bg-secondary); overflow: hidden; }
+.screenshots-scroll {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.phone-frame {
+  position: relative;
+  flex-shrink: 0;
+  width: 200px;
+  border-radius: 32px;
+  background: #fff;
+  box-shadow: 0 2px 0 2px #e0e0e0, 0 4px 32px rgba(0,0,0,0.18);
+  overflow: hidden;
+  transition: transform 0.25s, box-shadow 0.25s;
+  border: 2px solid #e0e0e0;
+}
+.phone-frame:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 2px 0 2px #d0d0d0, 0 20px 48px rgba(56,143,140,0.18);
+}
+.phone-frame img {
+  width: 100%;
+  display: block;
+  border-radius: 30px;
+}
+/* Raise center phone */
+.phone-frame.featured {
+  width: 220px;
+  transform: translateY(-16px);
+  box-shadow: 0 2px 0 2px #d0d0d0, 0 24px 56px rgba(56,143,140,0.22);
+  border-color: var(--primary-light);
+}
+.phone-frame.featured:hover {
+  transform: translateY(-24px) scale(1.03);
+}
+/* Side phones slightly de-emphasised */
+.phone-frame.side {
+  width: 175px;
+  opacity: 0.88;
+}
+.phone-frame.side:hover { opacity: 1; }
+
+@media (max-width: 900px) {
+  .phone-frame.side { display: none; }
+  .phone-frame.featured { transform: none; width: 200px; }
+}
+@media (max-width: 600px) {
+  .screenshots-scroll { gap: 1rem; }
+  .phone-frame { width: 155px; }
+  .phone-frame.featured { width: 175px; transform: none; }
+}
 
 /* ── Animations ──────────────────────────────────────────────────────────────── */
 @keyframes fadeUp {
