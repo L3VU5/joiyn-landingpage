@@ -10,23 +10,30 @@
   <link rel="apple-touch-icon" href="assets/images/icon1024.png" />
   <link rel="stylesheet" href="assets/css/styles.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+  <script src="assets/js/lang-detect.js"></script>
 </head>
-<body>
+<body data-page="deleteAccount">
 
   <!-- ── Navigation ─────────────────────────────────────────────────────────── -->
   <header>
     <nav class="nav">
       <div class="container nav-inner">
-        <a href="index.html" class="nav-logo">
-          <img src="assets/images/logo-teal.svg" alt="Joiyn" />
+                <a href="index.html" class="nav-logo">
+          <img src="assets/images/logo-teal.svg" alt="Joiyn" data-i18n-alt="common.altJoiyn" />
         </a>
-        <ul class="nav-links">
-          <li><a href="index.html#features">Features</a></li>
-          <li><a href="index.html#how-it-works">How it works</a></li>
-          <li><a href="support.html">Support</a></li>
-          <li><a href="privacy.html">Privacy</a></li>
-          <li><a href="index.html#download" class="nav-cta">Download</a></li>
-        </ul>
+        <div class="nav-end">
+          <div class="lang-picker" role="group" data-i18n-aria="common.langAria">
+            <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+            <button type="button" class="lang-btn" data-lang="pl" aria-pressed="false">PL</button>
+          </div>
+          <ul class="nav-links">
+            <li><a href="index.html#features" data-i18n="common.navFeatures">Features</a></li>
+            <li><a href="index.html#how-it-works" data-i18n="common.navHowItWorks">How it works</a></li>
+            <li><a href="support.html" data-i18n="common.navSupport">Support</a></li>
+            <li><a href="privacy.html" data-i18n="common.navPrivacy">Privacy</a></li>
+            <li><a href="index.html#download" class="nav-cta" data-i18n="common.navDownload">Download</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
   </header>
@@ -34,13 +41,13 @@
   <!-- ── Page hero ──────────────────────────────────────────────────────────── -->
   <section class="page-hero">
     <div class="container">
-      <h1>Delete Your Account</h1>
-      <p>How to permanently remove your Joiyn account and all associated data.</p>
+      <h1 data-i18n="deleteAccount.heroTitle">Delete Your Account</h1>
+      <p data-i18n="deleteAccount.heroSubtitle">How to permanently remove your Joiyn account and all associated data.</p>
     </div>
   </section>
 
   <!-- ── Content ────────────────────────────────────────────────────────────── -->
-  <div class="prose">
+  <div class="prose" data-i18n-html="deleteAccount.body">
 
     <div class="notice">
       <p><strong>Deleting your account is permanent.</strong> Once confirmed, your profile, events, messages, and all personal data will be removed and cannot be recovered.</p>
@@ -83,7 +90,7 @@
     <p>We will process your request within 30 days and confirm by email once complete.</p>
 
     <h2>Questions</h2>
-    <p>If you have any questions about account deletion or your data, visit our <a href="support.html">Support page</a> or read our <a href="privacy.html">Privacy Policy</a>.</p>
+    <p>If you have any questions about account deletion or your data, visit our <a href="support.html">Support page</a> or read our <a href="privacy.html" data-i18n="common.footerPrivacy">Privacy Policy</a>.</p>
 
   </div>
 
@@ -93,38 +100,46 @@
       <div class="footer-inner">
         <div class="footer-brand">
           <a href="index.html" class="nav-logo">
-            <img src="assets/images/logo-white.svg" alt="Joiyn" />
+            <img src="assets/images/logo-white.svg" data-i18n-alt="common.altJoiyn" alt="Joiyn" />
           </a>
-          <p>Meet people nearby through shared interests and local events.</p>
+          <p data-i18n="common.footerTagline">Meet people nearby through shared interests and local events.</p>
         </div>
         <div class="footer-col">
-          <h4>App</h4>
+          <h4 data-i18n="common.footerApp">App</h4>
           <ul>
-            <li><a href="index.html#features">Features</a></li>
-            <li><a href="index.html#how-it-works">How it works</a></li>
-            <li><a href="index.html#download">Download</a></li>
+            <li><a href="index.html#features" data-i18n="common.navFeatures">Features</a></li>
+            <li><a href="index.html#how-it-works" data-i18n="common.navHowItWorks">How it works</a></li>
+            <li><a href="index.html#download" data-i18n="common.navDownload">Download</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Legal &amp; Help</h4>
+          <h4 data-i18n="common.footerLegal">Legal &amp; Help</h4>
           <ul>
-            <li><a href="privacy.html">Privacy Policy</a></li>
-            <li><a href="child-safety.html">Child Safety</a></li>
-            <li><a href="support.html">Support</a></li>
-            <li><a href="delete-account.html">Delete Account</a></li>
+            <li><a href="privacy.html" data-i18n="common.footerPrivacy">Privacy Policy</a></li>
+            <li><a href="child-safety.html" data-i18n="common.footerChildSafety">Child Safety</a></li>
+            <li><a href="support.html" data-i18n="common.navSupport">Support</a></li>
+            <li><a href="delete-account.html" data-i18n="common.footerDeleteAccount">Delete Account</a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
-        <span>© 2026 Joiyn. All rights reserved.</span>
+        <span data-i18n="common.footerRights">© 2026 Joiyn. All rights reserved.</span>
         <div style="display:flex;gap:1.5rem;">
-          <a href="privacy.html">Privacy Policy</a>
-          <a href="child-safety.html">Child Safety</a>
-          <a href="support.html">Support</a>
+          <a href="privacy.html" data-i18n="common.footerPrivacy">Privacy Policy</a>
+          <a href="child-safety.html" data-i18n="common.footerChildSafety">Child Safety</a>
+          <a href="support.html" data-i18n="common.navSupport">Support</a>
         </div>
       </div>
     </div>
   </footer>
+
+  <script src="assets/js/translations-en.js"></script>
+  <script src="assets/js/translations-pl.js"></script>
+  <script src="assets/js/translations-pages-en.js"></script>
+  <script src="assets/js/translations-pages-pl.js"></script>
+  <script src="assets/js/translations-legal-en.js"></script>
+  <script src="assets/js/translations-legal-pl.js"></script>
+  <script src="assets/js/i18n.js"></script>
 
 </body>
 </html>

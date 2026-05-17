@@ -20,23 +20,30 @@
 
   <link rel="stylesheet" href="assets/css/styles.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+  <script src="assets/js/lang-detect.js"></script>
 </head>
-<body>
+<body data-page="index">
 
   <!-- ── Navigation ─────────────────────────────────────────────────────────── -->
   <header>
     <nav class="nav">
       <div class="container nav-inner">
         <a href="index.html" class="nav-logo">
-          <img src="assets/images/logo-teal.svg" alt="Joiyn" />
+          <img src="assets/images/logo-teal.svg" alt="Joiyn" data-i18n-alt="common.altJoiyn" />
         </a>
-        <ul class="nav-links">
-          <li><a href="#features">Features</a></li>
-          <li><a href="#how-it-works">How it works</a></li>
-          <li><a href="support.html">Support</a></li>
-          <li><a href="privacy.html">Privacy</a></li>
-          <li><a href="#download" class="nav-cta">Download</a></li>
-        </ul>
+        <div class="nav-end">
+          <div class="lang-picker" role="group" data-i18n-aria="common.langAria">
+            <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+            <button type="button" class="lang-btn" data-lang="pl" aria-pressed="false">PL</button>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#features" data-i18n="common.navFeatures">Features</a></li>
+            <li><a href="#how-it-works" data-i18n="common.navHowItWorks">How it works</a></li>
+            <li><a href="support.html" data-i18n="common.navSupport">Support</a></li>
+            <li><a href="privacy.html" data-i18n="common.navPrivacy">Privacy</a></li>
+            <li><a href="#download" class="nav-cta" data-i18n="common.navDownload">Download</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
   </header>
@@ -47,34 +54,30 @@
       <div class="hero-content">
         <div class="hero-eyebrow animate-fade-up">
           <i class="ti ti-device-mobile"></i>
-          Now available on iOS &amp; Android
+          <span data-i18n="index.heroEyebrow">Now available on iOS &amp; Android</span>
         </div>
-        <h1 class="hero-title animate-fade-up delay-1">
-          Meet People.<br /><span>Do Things Together.</span>
-        </h1>
-        <p class="hero-subtitle animate-fade-up delay-2">
-          Joiyn connects you with people nearby through shared interests and local events.
-          Browse what's happening in your city, join a group, and meet people in person.
-        </p>
+        <h1 class="hero-title animate-fade-up delay-1" data-i18n-html="index.heroTitle">Meet People.<br /><span>Do Things Together.</span></h1>
+        <p class="hero-subtitle animate-fade-up delay-2" data-i18n="index.heroSubtitle">Joiyn connects you with people nearby through shared interests and local events.
+          Browse what's happening in your city, join a group, and meet people in person.</p>
         <div class="hero-actions animate-fade-up delay-3">
           <!-- Apple App Store -->
-          <a href="#download" class="btn-store btn-store-apple" aria-label="Download on the App Store">
+          <a href="#download" class="btn-store btn-store-apple" data-i18n-aria="common.ariaAppStore" aria-label="Download on the App Store">
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
               <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
             </svg>
             <span class="btn-store-label">
-              <small>Download on the</small>
-              App Store
+              <small data-i18n="common.storeAppleSmall">Download on the</small>
+              <span data-i18n="common.storeApple">App Store</span>
             </span>
           </a>
           <!-- Google Play -->
-          <a href="#download" class="btn-store btn-store-google" aria-label="Get it on Google Play">
+          <a href="#download" class="btn-store btn-store-google" data-i18n-aria="common.ariaGooglePlay" aria-label="Get it on Google Play">
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
               <path d="M3.18 23.76a2 2 0 0 0 2.07-.22l.13-.09 11.06-6.39-.01-.01-3.09-3.09-10.16 9.8zm-1.1-20.3A2 2 0 0 0 2 4.93V19.1a2 2 0 0 0 .08.55l10.4-10.41L2.08 3.46zm20.06 8.15L19.6 9.5l-3.46 3.46 3.47 3.47 2.56-1.49a2 2 0 0 0 0-3.32zM5.25.46a2 2 0 0 0-2.07-.22L13.39 10.4l3.09-3.09L5.25.46z"/>
             </svg>
             <span class="btn-store-label">
-              <small>Get it on</small>
-              Google Play
+              <small data-i18n="common.storeGoogleSmall">Get it on</small>
+              <span data-i18n="common.storeGoogle">Google Play</span>
             </span>
           </a>
         </div>
@@ -83,16 +86,16 @@
       <div class="hero-visual animate-fade-up delay-2">
         <img
           src="assets/images/home.svg"
-          alt="People connecting through Joiyn events"
+          data-i18n-alt="common.altHero" alt="People connecting through Joiyn events"
           class="hero-illustration"
         />
         <div class="hero-badge">
           <span class="badge-icon"><i class="ti ti-target"></i></span>
-          <span>Match by interests</span>
+          <span data-i18n="index.badgeInterests">Match by interests</span>
         </div>
         <div class="hero-badge hero-badge-2">
           <span class="badge-icon"><i class="ti ti-map-pin"></i></span>
-          <span>Events near you</span>
+          <span data-i18n="index.badgeNearby">Events near you</span>
         </div>
       </div>
     </div>
@@ -103,11 +106,11 @@
     <div class="container social-proof-inner">
       <div class="proof-item">
         <i class="ti ti-users"></i>
-        Real people, real meetups
+        <span data-i18n="index.proofPeople">Real people, real meetups</span>
       </div>
       <div class="proof-item">
         <i class="ti ti-map-pin"></i>
-        Location-based discovery
+        <span data-i18n="index.proofLocation">Location-based discovery</span>
       </div>
       <div class="proof-item">
         <i class="ti ti-heart"></i>
@@ -124,43 +127,40 @@
   <section class="features" id="features">
     <div class="container">
       <div class="section-header">
-        <span class="section-eyebrow">Features</span>
-        <h2 class="section-title">Everything you need to meet people locally</h2>
-        <p class="section-subtitle">
-          Browse events, chat with the group before you arrive, and keep in touch
-          with people you'd want to see again.
-        </p>
+        <span class="section-eyebrow" data-i18n="index.featuresEyebrow">Features</span>
+        <h2 class="section-title" data-i18n="index.featuresTitle">Everything you need to meet people locally</h2>
+        <p class="section-subtitle" data-i18n="index.featuresSubtitle">Browse events, chat with the group before you arrive, and keep in touch with people you'd want to see again.</p>
       </div>
       <div class="features-grid">
         <div class="feature-card">
           <div class="feature-icon"><i class="ti ti-map"></i></div>
-          <h3>Discover Events Nearby</h3>
-          <p>Browse activities happening in your city, filtered by your interests and how far you're willing to go.</p>
+          <h3 data-i18n="index.feature1Title">Discover Events Nearby</h3>
+          <p data-i18n="index.feature1Text">Browse activities happening in your city, filtered by your interests and how far you're willing to go.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon"><i class="ti ti-palette"></i></div>
-          <h3>Pick Your Interests</h3>
-          <p>Tell Joiyn what you love: hiking, coffee, board games, fitness. We'll match you to events that fit your vibe.</p>
+          <h3 data-i18n="index.feature2Title">Pick Your Interests</h3>
+          <p data-i18n="index.feature2Text">Tell Joiyn what you love: hiking, coffee, board games, fitness. We'll match you to events that fit your vibe.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon"><i class="ti ti-calendar-plus"></i></div>
-          <h3>Create Your Own Event</h3>
-          <p>Organise a small gathering in minutes. Set the time, place, and how many people you want to invite.</p>
+          <h3 data-i18n="index.feature3Title">Create Your Own Event</h3>
+          <p data-i18n="index.feature3Text">Organise a small gathering in minutes. Set the time, place, and how many people you want to invite.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon"><i class="ti ti-message-circle"></i></div>
-          <h3>Chat Before You Meet</h3>
-          <p>Get to know participants beforehand so showing up feels comfortable, not awkward.</p>
+          <h3 data-i18n="index.feature4Title">Chat Before You Meet</h3>
+          <p data-i18n="index.feature4Text">Get to know participants beforehand so showing up feels comfortable, not awkward.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon"><i class="ti ti-bell"></i></div>
-          <h3>Stay in the Loop</h3>
-          <p>Get notified when events are confirmed, cancelled, or when someone new joins the group.</p>
+          <h3 data-i18n="index.feature5Title">Stay in the Loop</h3>
+          <p data-i18n="index.feature5Text">Get notified when events are confirmed, cancelled, or when someone new joins the group.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon"><i class="ti ti-star"></i></div>
-          <h3>Rate &amp; Reconnect</h3>
-          <p>After every event, leave quick feedback and add people you'd want to hang out with again.</p>
+          <h3 data-i18n="index.feature6Title">Rate &amp; Reconnect</h3>
+          <p data-i18n="index.feature6Text">After every event, leave quick feedback and add people you'd want to hang out with again.</p>
         </div>
       </div>
     </div>
@@ -170,25 +170,25 @@
   <section class="screenshots">
     <div class="container">
       <div class="section-header">
-        <span class="section-eyebrow">The app</span>
-        <h2 class="section-title">See what it looks like</h2>
-        <p class="section-subtitle">From picking your interests to showing up at the event — here's what using Joiyn actually looks like.</p>
+        <span class="section-eyebrow" data-i18n="index.screenshotsEyebrow">The app</span>
+        <h2 class="section-title" data-i18n="index.screenshotsTitle">See what it looks like</h2>
+        <p class="section-subtitle" data-i18n="index.screenshotsSubtitle">From picking your interests to showing up at the event — here's what using Joiyn actually looks like.</p>
       </div>
       <div class="screenshots-scroll">
         <div class="phone-frame side">
-          <img src="assets/screenshots/screen-interests.png" alt="Choose your interests" loading="lazy" />
+          <img src="assets/screenshots/screen-interests.png" data-i18n-alt="index.altInterests" alt="Choose your interests" loading="lazy" />
         </div>
         <div class="phone-frame side">
-          <img src="assets/screenshots/screen-join.png" alt="Find events to join" loading="lazy" />
+          <img src="assets/screenshots/screen-join.png" data-i18n-alt="index.altJoin" alt="Find events to join" loading="lazy" />
         </div>
         <div class="phone-frame featured">
-          <img src="assets/screenshots/screen-matches.png" alt="Matched events near you" loading="lazy" />
+          <img src="assets/screenshots/screen-matches.png" data-i18n-alt="index.altMatches" alt="Matched events near you" loading="lazy" />
         </div>
         <div class="phone-frame side">
-          <img src="assets/screenshots/screen-event.png" alt="Event details and participants" loading="lazy" />
+          <img src="assets/screenshots/screen-event.png" data-i18n-alt="index.altEvent" alt="Event details and participants" loading="lazy" />
         </div>
         <div class="phone-frame side">
-          <img src="assets/screenshots/screen-profile.png" alt="Your profile and interests" loading="lazy" />
+          <img src="assets/screenshots/screen-profile.png" data-i18n-alt="index.altProfile" alt="Your profile and interests" loading="lazy" />
         </div>
       </div>
     </div>
@@ -198,28 +198,25 @@
   <section class="how-it-works" id="how-it-works">
     <div class="container">
       <div class="section-header">
-        <span class="section-eyebrow">How it works</span>
-        <h2 class="section-title">Three steps to your next meetup</h2>
-        <p class="section-subtitle">
-          Pick your interests, find something happening nearby, and show up.
-          That's pretty much it.
-        </p>
+        <span class="section-eyebrow" data-i18n="index.howEyebrow">How it works</span>
+        <h2 class="section-title" data-i18n="index.howTitle">Three steps to your next meetup</h2>
+        <p class="section-subtitle" data-i18n="index.howSubtitle">Pick your interests, find something happening nearby, and show up. That's pretty much it.</p>
       </div>
       <div class="steps">
         <div class="step">
           <div class="step-number"><i class="ti ti-user-plus"></i></div>
-          <h3>Build your profile</h3>
-          <p>Create an account, choose your interests, and set your location. Takes less than two minutes.</p>
+          <h3 data-i18n="index.step1Title">Build your profile</h3>
+          <p data-i18n="index.step1Text">Create an account, choose your interests, and set your location. Takes less than two minutes.</p>
         </div>
         <div class="step">
           <div class="step-number"><i class="ti ti-search"></i></div>
-          <h3>Browse &amp; join</h3>
-          <p>Explore events in your city. Filter by activity type, date, or group size. Then tap to join.</p>
+          <h3 data-i18n="index.step2Title">Browse &amp; join</h3>
+          <p data-i18n="index.step2Text">Explore events in your city. Filter by activity type, date, or group size. Then tap to join.</p>
         </div>
         <div class="step">
           <div class="step-number"><i class="ti ti-heart-handshake"></i></div>
-          <h3>Show up &amp; connect</h3>
-          <p>Attend the event, meet the people, and stay in touch with whoever you click with.</p>
+          <h3 data-i18n="index.step3Title">Show up &amp; connect</h3>
+          <p data-i18n="index.step3Text">Attend the event, meet the people, and stay in touch with whoever you click with.</p>
         </div>
       </div>
     </div>
@@ -229,26 +226,26 @@
   <section class="interests">
     <div class="container">
       <div class="section-header">
-        <span class="section-eyebrow">Activities</span>
-        <h2 class="section-title">Whatever you're into, there's a Joiyn event for it</h2>
+        <span class="section-eyebrow" data-i18n="index.activitiesEyebrow">Activities</span>
+        <h2 class="section-title" data-i18n="index.activitiesTitle">Whatever you're into, there's a Joiyn event for it</h2>
       </div>
       <div class="interests-scroll">
-        <span class="interest-tag"><i class="ti ti-coffee"></i> Coffee</span>
-        <span class="interest-tag"><i class="ti ti-trekking"></i> Hiking</span>
-        <span class="interest-tag"><i class="ti ti-run"></i> Running</span>
-        <span class="interest-tag"><i class="ti ti-yoga"></i> Yoga</span>
-        <span class="interest-tag"><i class="ti ti-chess"></i> Board Games</span>
-        <span class="interest-tag"><i class="ti ti-pizza"></i> Foodie Meetups</span>
-        <span class="interest-tag"><i class="ti ti-camera"></i> Photography</span>
-        <span class="interest-tag"><i class="ti ti-bike"></i> Cycling</span>
-        <span class="interest-tag"><i class="ti ti-brush"></i> Art &amp; Crafts</span>
-        <span class="interest-tag"><i class="ti ti-music"></i> Live Music</span>
-        <span class="interest-tag"><i class="ti ti-book"></i> Book Club</span>
-        <span class="interest-tag"><i class="ti ti-barbell"></i> Fitness</span>
-        <span class="interest-tag"><i class="ti ti-leaf"></i> Nature Walks</span>
-        <span class="interest-tag"><i class="ti ti-masks-theater"></i> Theatre</span>
-        <span class="interest-tag"><i class="ti ti-glass-full"></i> Wine Tasting</span>
-        <span class="interest-tag"><i class="ti ti-code"></i> Tech Meetups</span>
+        <span class="interest-tag"><i class="ti ti-coffee"></i> <span data-i18n="index.interestCoffee">Coffee</span></span>
+        <span class="interest-tag"><i class="ti ti-trekking"></i> <span data-i18n="index.interestHiking">Hiking</span></span>
+        <span class="interest-tag"><i class="ti ti-run"></i> <span data-i18n="index.interestRunning">Running</span></span>
+        <span class="interest-tag"><i class="ti ti-yoga"></i> <span data-i18n="index.interestYoga">Yoga</span></span>
+        <span class="interest-tag"><i class="ti ti-chess"></i> <span data-i18n="index.interestBoardGames">Board Games</span></span>
+        <span class="interest-tag"><i class="ti ti-pizza"></i> <span data-i18n="index.interestFoodie">Foodie Meetups</span></span>
+        <span class="interest-tag"><i class="ti ti-camera"></i> <span data-i18n="index.interestPhoto">Photography</span></span>
+        <span class="interest-tag"><i class="ti ti-bike"></i> <span data-i18n="index.interestCycling">Cycling</span></span>
+        <span class="interest-tag"><i class="ti ti-brush"></i> <span data-i18n="index.interestArt">Art &amp; Crafts</span></span>
+        <span class="interest-tag"><i class="ti ti-music"></i> <span data-i18n="index.interestMusic">Live Music</span></span>
+        <span class="interest-tag"><i class="ti ti-book"></i> <span data-i18n="index.interestBook">Book Club</span></span>
+        <span class="interest-tag"><i class="ti ti-barbell"></i> <span data-i18n="index.interestFitness">Fitness</span></span>
+        <span class="interest-tag"><i class="ti ti-leaf"></i> <span data-i18n="index.interestNature">Nature Walks</span></span>
+        <span class="interest-tag"><i class="ti ti-masks-theater"></i> <span data-i18n="index.interestTheatre">Theatre</span></span>
+        <span class="interest-tag"><i class="ti ti-glass-full"></i> <span data-i18n="index.interestWine">Wine Tasting</span></span>
+        <span class="interest-tag"><i class="ti ti-code"></i> <span data-i18n="index.interestTech">Tech Meetups</span></span>
       </div>
     </div>
   </section>
@@ -256,29 +253,26 @@
   <!-- ── Download CTA ────────────────────────────────────────────────────────── -->
   <section class="cta-section" id="download">
     <div class="container cta-content">
-      <img src="assets/images/icon1024.png" alt="Joiyn" class="cta-icon" />
-      <h2 class="cta-title">Ready to meet your people?</h2>
-      <p class="cta-subtitle">
-        Download Joiyn for free and start finding events near you today.
-        New in town, or just looking for something to do on the weekend - we've got you.
-      </p>
+      <img src="assets/images/icon1024.png" data-i18n-alt="common.altJoiyn" alt="Joiyn" class="cta-icon" />
+      <h2 class="cta-title" data-i18n="index.ctaTitle">Ready to meet your people?</h2>
+      <p class="cta-subtitle" data-i18n="index.ctaSubtitle">Download Joiyn for free and start finding events near you today. New in town, or just looking for something to do on the weekend - we've got you.</p>
       <div class="cta-buttons">
-        <a href="#" class="btn-store btn-store-light" aria-label="Download on the App Store">
+        <a href="#" class="btn-store btn-store-light" data-i18n-aria="common.ariaAppStore" aria-label="Download on the App Store">
           <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true">
             <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
           </svg>
           <span class="btn-store-label">
-            <small>Download on the</small>
-            App Store
+            <small data-i18n="common.storeAppleSmall">Download on the</small>
+            <span data-i18n="common.storeApple">App Store</span>
           </span>
         </a>
-        <a href="#" class="btn-store btn-store-light" aria-label="Get it on Google Play">
+        <a href="#" class="btn-store btn-store-light" data-i18n-aria="common.ariaGooglePlay" aria-label="Get it on Google Play">
           <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true">
             <path d="M3.18 23.76a2 2 0 0 0 2.07-.22l.13-.09 11.06-6.39-.01-.01-3.09-3.09-10.16 9.8zm-1.1-20.3A2 2 0 0 0 2 4.93V19.1a2 2 0 0 0 .08.55l10.4-10.41L2.08 3.46zm20.06 8.15L19.6 9.5l-3.46 3.46 3.47 3.47 2.56-1.49a2 2 0 0 0 0-3.32zM5.25.46a2 2 0 0 0-2.07-.22L13.39 10.4l3.09-3.09L5.25.46z"/>
           </svg>
           <span class="btn-store-label">
-            <small>Get it on</small>
-            Google Play
+            <small data-i18n="common.storeGoogleSmall">Get it on</small>
+            <span data-i18n="common.storeGoogle">Google Play</span>
           </span>
         </a>
       </div>
@@ -293,37 +287,45 @@
           <a href="index.html" class="nav-logo">
             <img src="assets/images/logo-white.svg" alt="Joiyn" />
           </a>
-          <p>Meet people nearby through shared interests and local events.</p>
+          <p data-i18n="common.footerTagline">Meet people nearby through shared interests and local events.</p>
         </div>
         <div class="footer-col">
-          <h4>App</h4>
+          <h4 data-i18n="common.footerApp">App</h4>
           <ul>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#how-it-works">How it works</a></li>
-            <li><a href="#download">Download</a></li>
+            <li><a href="#features" data-i18n="common.navFeatures">Features</a></li>
+            <li><a href="#how-it-works" data-i18n="common.navHowItWorks">How it works</a></li>
+            <li><a href="#download" data-i18n="common.navDownload">Download</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Legal &amp; Help</h4>
+          <h4 data-i18n="common.footerLegal">Legal &amp; Help</h4>
           <ul>
-            <li><a href="privacy.html">Privacy Policy</a></li>
-            <li><a href="child-safety.html">Child Safety</a></li>
-            <li><a href="support.html">Support</a></li>
-            <li><a href="delete-account.html">Delete Account</a></li>
+            <li><a href="privacy.html" data-i18n="common.footerPrivacy">Privacy Policy</a></li>
+            <li><a href="child-safety.html" data-i18n="common.footerChildSafety">Child Safety</a></li>
+            <li><a href="support.html" data-i18n="common.navSupport">Support</a></li>
+            <li><a href="delete-account.html" data-i18n="common.footerDeleteAccount">Delete Account</a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
-        <span>© 2026 Joiyn. All rights reserved.</span>
+        <span data-i18n="common.footerRights">© 2026 Joiyn. All rights reserved.</span>
         <div style="display:flex;gap:1.5rem;">
-          <a href="privacy.html">Privacy Policy</a>
-          <a href="child-safety.html">Child Safety</a>
-          <a href="support.html">Support</a>
+          <a href="privacy.html" data-i18n="common.footerPrivacy">Privacy Policy</a>
+          <a href="child-safety.html" data-i18n="common.footerChildSafety">Child Safety</a>
+          <a href="support.html" data-i18n="common.navSupport">Support</a>
         </div>
       </div>
     </div>
   </footer>
 
+
+  <script src="assets/js/translations-en.js"></script>
+  <script src="assets/js/translations-pl.js"></script>
+  <script src="assets/js/translations-pages-en.js"></script>
+  <script src="assets/js/translations-pages-pl.js"></script>
+  <script src="assets/js/translations-legal-en.js"></script>
+  <script src="assets/js/translations-legal-pl.js"></script>
+  <script src="assets/js/i18n.js"></script>
 
 </body>
 </html>
