@@ -28,9 +28,9 @@
       faq7q: "Jak usunąć konto?",
       faq7a:
         'Przejdź do profilu, otwórz Ustawienia i wybierz „Usuń konto”. Spowoduje to trwałe usunięcie konta i wszystkich powiązanych danych. Tej operacji nie można cofnąć.',
-      faq8q: "Jak zgłosić użytkownika lub wydarzenie?",
+      faq8q: "Jak zgłosić profil, wydarzenie lub zdjęcie?",
       faq8a:
-        'Na profilu użytkownika lub stronie wydarzenia dotknij menu z trzema kropkami (⋯) i wybierz „Zgłoś”. Opisz problem — sprawdzimy zgłoszenie. Możesz też napisać do nas e-mailem.',
+        "Na profilu użytkownika lub stronie wydarzenia otwórz menu ⋯ i wybierz „Zgłoś”. Przy zdjęciach (także na czacie wydarzenia) przytrzymaj obraz, potem „Zgłoś”. Wybierz powód i wyślij — treść od razu znika z Twojego widoku, a zespół ją sprawdza. Możesz też napisać z Ustawienia → Bezpieczeństwo i wsparcie.",
       faq9q: "Czy Joiyn jest darmowy?",
       faq9a:
         "Tak, Joiyn jest darmowy. Odkrywanie wydarzeń, dołączanie i czat w aplikacji są wliczone w cenę.",
@@ -56,7 +56,7 @@
         "Wydarzenia i dołączanie",
         "Powiadomienia",
         "Prywatność i dane",
-        "Zgłoszenie użytkownika / wydarzenia",
+        "Zgłoszenie treści (profil, wydarzenie, zdjęcie)",
         "Usunięcie konta",
         "Błąd lub problem techniczny",
         "Inne",

@@ -27,9 +27,9 @@
       faq7q: "How do I delete my account?",
       faq7a:
         'Go to your profile, open Settings, and select "Delete Account". This will permanently remove your account and all associated data. This action cannot be undone.',
-      faq8q: "How do I report a user or event?",
+      faq8q: "How do I report a profile, event, or photo?",
       faq8a:
-        'On any user profile or event page, tap the three-dot menu (⋯) and select "Report". Describe the issue and we\'ll take a look. You can also email us directly.',
+        "Open a user profile or event and use the ⋯ menu to choose Report. For photos (including pictures in event chat), press and hold the image, then Report. Pick a reason and send: the item is hidden for you right away while our team reviews. You can also email us from Settings → Safety & support.",
       faq9q: "Is Joiyn free to use?",
       faq9a: "Yes, Joiyn is free. Event discovery, joining events, and in-app chat are all included.",
       contactTitle: "Contact Details",
@@ -54,7 +54,7 @@
         "Events & joining",
         "Notifications",
         "Privacy & data",
-        "Report a user / event",
+        "Report content (profile, event, or photo)",
         "Account deletion",
         "Bug or technical issue",
         "Other",

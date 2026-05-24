@@ -3,9 +3,11 @@ window.JOIYN_TRANSLATIONS.en = {
   meta: {
     index: {
       title: "Joiyn | Meet People. Do Things Together.",
-      description: "Joiyn helps you find local events, meet people who share your interests, and actually show up.",
+      description:
+        "Joiyn helps you find local events, meet people who share your interests, and meet in person—with in-app reporting for profiles, events, and photos plus a clear privacy policy.",
       ogTitle: "Joiyn | Meet People. Do Things Together.",
-      ogDescription: "Find local events, meet people who share your interests, and actually show up.",
+      ogDescription:
+        "Find local events, meet people who share your interests, and stay safer with built-in reporting and privacy-first design.",
     },
     privacy: {
       title: "Privacy Policy | Joiyn",
@@ -13,7 +15,8 @@ window.JOIYN_TRANSLATIONS.en = {
     },
     support: {
       title: "Support | Joiyn",
-      description: "Get help with Joiyn: frequently asked questions, contact information, and how to report issues.",
+      description:
+        "Get help with Joiyn: FAQs, contact options, and how to report profiles, events, or photos.",
     },
     deleteAccount: {
       title: "Delete Account | Joiyn",
@@ -53,17 +56,17 @@ window.JOIYN_TRANSLATIONS.en = {
     heroEyebrow: "Now available on iOS & Android",
     heroTitle: 'Meet People.<br /><span>Do Things Together.</span>',
     heroSubtitle:
-      "Joiyn connects you with people nearby through shared interests and local events. Browse what's happening in your city, join a group, and meet people in person.",
+      "Joiyn connects you with people nearby through shared interests and local events. Browse what's happening in your city, join a group, and meet in person—with tools to report profiles, events, or photos if something feels off.",
     badgeInterests: "Match by interests",
     badgeNearby: "Events near you",
     proofPeople: "Real people, real meetups",
     proofLocation: "Location-based discovery",
     proofInterests: "Built on shared interests",
-    proofSecure: "Private & secure by design",
+    proofSecure: "Reporting & privacy built in",
     featuresEyebrow: "Features",
     featuresTitle: "Everything you need to meet people locally",
     featuresSubtitle:
-      "Browse events, chat with the group before you arrive, and keep in touch with people you'd want to see again.",
+      "Browse events, chat with the group before you arrive, keep in touch with people you'd want to see again, and use in-app reporting when you need help.",
     feature1Title: "Discover Events Nearby",
     feature1Text:
       "Browse activities happening in your city, filtered by your interests and how far you're willing to go.",
@@ -94,7 +97,8 @@ window.JOIYN_TRANSLATIONS.en = {
     howTitle: "Three steps to your next meetup",
     howSubtitle: "Pick your interests, find something happening nearby, and show up. That's pretty much it.",
     step1Title: "Build your profile",
-    step1Text: "Create an account, choose your interests, and set your location. Takes less than two minutes.",
+    step1Text:
+      "Create an account, confirm you meet the minimum age, choose your interests, and set your location. Takes less than two minutes.",
     step2Title: "Browse & join",
     step2Text: "Explore events in your city. Filter by activity type, date, or group size. Then tap to join.",
     step3Title: "Show up & connect",
@@ -119,6 +123,6 @@ window.JOIYN_TRANSLATIONS.en = {
     interestTech: "Tech Meetups",
     ctaTitle: "Ready to meet your people?",
     ctaSubtitle:
-      "Download Joiyn for free and start finding events near you today. New in town, or just looking for something to do on the weekend - we've got you.",
+      "Download Joiyn for free and start finding events near you today. New in town, or just looking for something to do on the weekend—we've got you, with modern safety tools in the app.",
   },
 };

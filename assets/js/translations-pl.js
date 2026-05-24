@@ -4,10 +4,10 @@ window.JOIYN_TRANSLATIONS.pl = {
     index: {
       title: "Joiyn | Poznawaj ludzi. Róbcie coś razem.",
       description:
-        "Joiyn pomaga znaleźć lokalne wydarzenia, poznać ludzi o podobnych zainteresowaniach i po prostu się spotkać.",
+        "Joiyn pomaga znaleźć lokalne wydarzenia i ludzi o podobnych zainteresowaniach — z zgłaszaniem profili, wydarzeń i zdjęć w aplikacji oraz czytelną polityką prywatności.",
       ogTitle: "Joiyn | Poznawaj ludzi. Róbcie coś razem.",
       ogDescription:
-        "Znajdź lokalne wydarzenia, poznaj ludzi o podobnych zainteresowaniach i po prostu się spotkaj.",
+        "Znajdź lokalne wydarzenia, poznaj ludzi w okolicy i korzystaj z wbudowanych narzędzi zgłoszeń oraz podejścia privacy-first.",
     },
     privacy: {
       title: "Polityka prywatności | Joiyn",
@@ -17,7 +17,7 @@ window.JOIYN_TRANSLATIONS.pl = {
     support: {
       title: "Pomoc | Joiyn",
       description:
-        "Pomoc dla Joiyn: najczęstsze pytania, kontakt i zgłaszanie problemów.",
+        "Pomoc dla Joiyn: FAQ, kontakt i zgłaszanie profili, wydarzeń lub zdjęć.",
     },
     deleteAccount: {
       title: "Usuń konto | Joiyn",
@@ -58,17 +58,17 @@ window.JOIYN_TRANSLATIONS.pl = {
     heroEyebrow: "Już dostępne na iOS i Android",
     heroTitle: 'Poznawaj ludzi.<br /><span>Róbcie coś razem.</span>',
     heroSubtitle:
-      "Joiyn łączy Cię z ludźmi w okolicy przez wspólne zainteresowania i lokalne wydarzenia. Zobacz, co dzieje się w Twoim mieście, dołącz do grupy i spotkaj się na żywo.",
+      "Joiyn łączy Cię z ludźmi w okolicy przez wspólne zainteresowania i lokalne wydarzenia. Zobacz, co dzieje się w Twoim mieście, dołącz do grupy i spotkaj się na żywo — z narzędziami do zgłaszania profili, wydarzeń lub zdjęć, gdy coś Ci nie pasuje.",
     badgeInterests: "Dopasowanie po zainteresowaniach",
     badgeNearby: "Wydarzenia w pobliżu",
     proofPeople: "Prawdziwi ludzie, prawdziwe spotkania",
     proofLocation: "Wydarzenia w Twojej okolicy",
     proofInterests: "Wspólne zainteresowania",
-    proofSecure: "Prywatność i bezpieczeństwo",
+    proofSecure: "Zgłoszenia i prywatność w aplikacji",
     featuresEyebrow: "Funkcje",
     featuresTitle: "Wszystko, czego potrzebujesz, by poznawać ludzi lokalnie",
     featuresSubtitle:
-      "Przeglądaj wydarzenia, pogadaj z grupą przed spotkaniem i zostaw kontakt z ludźmi, z którymi chcesz się jeszcze zobaczyć.",
+      "Przeglądaj wydarzenia, pogadaj z grupą przed spotkaniem, zostaw kontakt z ludźmi, z którymi chcesz się jeszcze zobaczyć, i korzystaj ze zgłoszeń w aplikacji, gdy potrzebujesz pomocy.",
     feature1Title: "Wydarzenia w pobliżu",
     feature1Text:
       "Przeglądaj aktywności w swoim mieście, filtrowane po zainteresowaniach i odległości, na jaką jesteś gotowy/a pojechać.",
@@ -102,7 +102,7 @@ window.JOIYN_TRANSLATIONS.pl = {
       "Wybierz zainteresowania, znajdź coś w pobliżu i po prostu przyjdź. Tyle.",
     step1Title: "Zbuduj profil",
     step1Text:
-      "Załóż konto, wybierz zainteresowania i ustaw lokalizację. Zajmie to mniej niż dwie minuty.",
+      "Załóż konto, potwierdź wiek, wybierz zainteresowania i ustaw lokalizację. Zajmie to mniej niż dwie minuty.",
     step2Title: "Przeglądaj i dołącz",
     step2Text:
       "Przeglądaj wydarzenia w swoim mieście. Filtruj po aktywności, dacie lub wielkości grupy. Potem dotknij, by dołączyć.",
@@ -129,6 +129,6 @@ window.JOIYN_TRANSLATIONS.pl = {
     interestTech: "Spotkania tech",
     ctaTitle: "Gotowy/a poznać swoich ludzi?",
     ctaSubtitle:
-      "Pobierz Joiyn za darmo i zacznij szukać wydarzeń w pobliżu już dziś. Nowy/a w mieście albo szukasz planu na weekend - pomożemy.",
+      "Pobierz Joiyn za darmo i zacznij szukać wydarzeń w pobliżu już dziś. Nowy/a w mieście albo szukasz planu na weekend — jesteśmy z Tobą, z nowoczesnymi narzędziami bezpieczeństwa w aplikacji.",
   },
 };
