@@ -22,7 +22,7 @@ function handleSubmit(e) {
   var name = document.getElementById('name').value;
   var subject = encodeURIComponent('Joiyn Support: ' + (topic || t('support.mailSubjectGeneral')));
   var body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + message);
-  window.location.href = 'mailto:shirocoding@gmail.com?subject=' + subject + '&body=' + body;
+  window.location.href = 'mailto:support@joiyn.app?subject=' + subject + '&body=' + body;
 
   status.textContent = t('support.formSuccess');
   status.style.color = 'var(--primary)';

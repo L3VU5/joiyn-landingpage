@@ -65,7 +65,7 @@
       formErrorRequired: "Please fill in all required fields.",
       formSending: "Sending…",
       formSuccess:
-        "Opening your email client… If nothing happens, email us directly at shirocoding@gmail.com",
+        "Opening your email client… If nothing happens, email us directly at support@joiyn.app",
       mailSubjectGeneral: "General enquiry",
     },
     deleteAccount: {

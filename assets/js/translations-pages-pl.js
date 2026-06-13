@@ -67,7 +67,7 @@
       formErrorRequired: "Wypełnij wszystkie wymagane pola.",
       formSending: "Wysyłanie…",
       formSuccess:
-        "Otwieramy klienta poczty… Jeśli nic się nie dzieje, napisz do nas: shirocoding@gmail.com",
+        "Otwieramy klienta poczty… Jeśli nic się nie dzieje, napisz do nas: support@joiyn.app",
       mailSubjectGeneral: "Zapytanie ogólne",
     },
     deleteAccount: {

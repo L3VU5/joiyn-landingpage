@@ -42,7 +42,7 @@ npx serve .
 1. Push this repo to GitHub.
 2. Go to **Settings → Pages**.
 3. Set **Source** to `Deploy from a branch`, branch `main`, folder `/` (root).
-4. Save. GitHub will publish the site at `https://<username>.github.io/joiyn-landingpage/`.
+4. Save. With a custom domain configured, the site is published at `https://joiyn.app` (GitHub Pages also serves at `https://<username>.github.io/joiyn-landingpage/` until the custom domain is set).
 
 ### Option B — deploy from `/docs` folder
 
@@ -84,8 +84,10 @@ Search for `href="#"` in `index.html` and replace with real App Store / Google P
 
 ## Privacy policy URL
 
-Once deployed, update `docs/APP_STORE_RELEASE.md` in the `joiyn-mvp` repo with the live privacy policy URL, e.g.:
+Live site:
 
 ```
-https://<username>.github.io/joiyn-landingpage/privacy.html
+https://joiyn.app/privacy.html
 ```
+
+The mobile app references this URL in `joiyn-mvp/mobile/JoiynMobile/src/config/legal.ts`.
