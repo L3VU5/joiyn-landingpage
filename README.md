@@ -52,6 +52,29 @@ Move all files into a `docs/` sub-folder and set the Pages source to `main / doc
 
 Use the `actions/deploy-pages` workflow for full CI/CD control.
 
+## Event deep links (`/events/*`)
+
+Event invites use `https://joiyn.app/events/{eventId}?...`. These files enable universal links and a browser fallback:
+
+| File | Purpose |
+|------|---------|
+| `.well-known/apple-app-site-association` | iOS Universal Links (opens app when installed) |
+| `.well-known/assetlinks.json` | Android App Links verification |
+| `404.html` | GitHub Pages fallback for `/events/*` when the app is not installed |
+
+### Before deploy
+
+1. **`assetlinks.json`** — replace `REPLACE_WITH_PLAY_APP_SIGNING_SHA256` with the **App signing key certificate** SHA-256 from Play Console → **Setup** → **App signing** (colon-separated hex, uppercase).
+2. Requires a new native mobile build with `associatedDomains` / `intentFilters` (see `joiyn-mvp/mobile/JoiynMobile/app.json`).
+
+### Verify after deploy
+
+```bash
+curl -s https://joiyn.app/.well-known/apple-app-site-association
+curl -s https://joiyn.app/.well-known/assetlinks.json
+curl -sI https://joiyn.app/events/test-id   # should return 404 body from 404.html
+```
+
 ## File structure
 
 ```
@@ -59,6 +82,10 @@ joiyn-landingpage/
 ├── index.html          # Landing page
 ├── privacy.html        # Privacy Policy
 ├── support.html        # Support & FAQ
+├── 404.html            # Event deep-link fallback (app not installed)
+├── .well-known/
+│   ├── apple-app-site-association
+│   └── assetlinks.json
 ├── .nojekyll           # Prevents GitHub Pages Jekyll processing
 ├── assets/
 │   ├── css/
@@ -72,14 +99,14 @@ joiyn-landingpage/
 
 ## Updating store links
 
-Search for `href="#"` in `index.html` and replace with real App Store / Google Play URLs once the app is live.
+Store URLs in `index.html` and `404.html`:
 
 ```html
 <!-- App Store -->
-<a href="https://apps.apple.com/app/joiyn/idXXXXXXXXXX" …>
+<a href="https://apps.apple.com/app/id6773401520" …>
 
 <!-- Google Play -->
-<a href="https://play.google.com/store/apps/details?id=com.joiyn.app" …>
+<a href="https://play.google.com/store/apps/details?id=com.shirocoding.joiyn" …>
 ```
 
 ## Privacy policy URL

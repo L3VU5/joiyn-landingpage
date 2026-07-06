@@ -84,6 +84,9 @@ window.JOIYN_TRANSLATIONS.en = {
     feature6Title: "Rate & Reconnect",
     feature6Text:
       "After every event, leave quick feedback and add people you'd want to hang out with again.",
+    feature7Title: "Invite via Link",
+    feature7Text:
+      "Share an event in WhatsApp or SMS; friends tap the link to open it in Joiyn.",
     screenshotsEyebrow: "The app",
     screenshotsTitle: "See what it looks like",
     screenshotsSubtitle:

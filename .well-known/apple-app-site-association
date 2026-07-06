@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "HPX9H5LV8Z.com.shirocoding.joiyn",
+        "paths": ["/events/*"]
+      }
+    ]
+  }
+}

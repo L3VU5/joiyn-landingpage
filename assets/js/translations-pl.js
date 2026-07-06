@@ -87,6 +87,9 @@ window.JOIYN_TRANSLATIONS.pl = {
     feature6Title: "Oceń i zostań w kontakcie",
     feature6Text:
       "Po każdym wydarzeniu zostaw krótką opinię i dodaj osoby, z którymi chcesz się jeszcze spotkać.",
+    feature7Title: "Zaproś linkiem",
+    feature7Text:
+      "Udostępnij wydarzenie w WhatsAppie lub SMS-ie — znajomi dotkną linku i otworzą je w Joiyn.",
     screenshotsEyebrow: "Aplikacja",
     screenshotsTitle: "Zobacz, jak to wygląda",
     screenshotsSubtitle:

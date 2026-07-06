@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.shirocoding.joiyn",
+      "sha256_cert_fingerprints": [
+        "6D:29:26:FA:8F:92:A1:DE:41:3C:3E:A8:4A:08:F1:A5:A8:4A:8C:09:72:F5:D6:B7:22:ED:58:8D:B6:03:1B:E5"
+      ]
+    }
+  }
+]
