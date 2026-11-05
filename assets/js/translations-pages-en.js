@@ -78,7 +78,7 @@
     },
     privacy: {
       heroTitle: "Privacy Policy",
-      updated: "Last updated: May 2, 2026",
+      updated: "Last updated: November 5, 2026",
     },
   });
 })();
