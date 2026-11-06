@@ -1,0 +1,23 @@
+// Serves this static site from Cloudflare Workers Static Assets on joiyn.app.
+// The event page Worker (joiyn-mvp/web/event-page) owns joiyn.app/events/* and
+// joiyn.app/j/*; the more specific route wins, everything else lands here.
+// Deploy: `npx wrangler deploy` (or Workers Builds on push to main).
+{
+  "name": "joiyn-landing",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": ".",
+    // Keep GitHub Pages URLs byte-for-byte: /privacy.html stays 200, no redirects.
+    "html_handling": "none",
+    "not_found_handling": "404-page"
+  },
+  "workers_dev": false,
+  "routes": [{ "pattern": "joiyn.app/*", "zone_name": "joiyn.app" }],
+  "env": {
+    // Dress rehearsal on a throwaway subdomain before touching the apex.
+    "rehearsal": {
+      "workers_dev": false,
+      "routes": [{ "pattern": "next.joiyn.app/*", "zone_name": "joiyn.app" }]
+    }
+  }
+}

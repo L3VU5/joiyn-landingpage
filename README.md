@@ -1,6 +1,6 @@
 # Joiyn Landing Page
 
-Marketing website for the [Joiyn](https://joiyn.app) mobile app, deployed via GitHub Pages.
+Marketing website for the [Joiyn](https://joiyn.app) mobile app, served from Cloudflare Workers Static Assets (moving from GitHub Pages, see Deployment).
 
 ## Pages
 
@@ -35,22 +35,23 @@ npx serve .
 # → http://localhost:3000
 ```
 
-## Deployment (GitHub Pages)
+## Deployment (Cloudflare Workers)
 
-### Option A — deploy from `main` branch root (recommended)
+The site is the `joiyn-landing` Worker: static assets only, no code, route `joiyn.app/*`. The event page Worker (`joiyn-mvp/web/event-page`) owns `joiyn.app/events/*` and `joiyn.app/j/*`. The move from GitHub Pages (rehearsal on `next.joiyn.app`, switch, rollback) is described once, in `joiyn-mvp/web/event-page/README.md` → "Moving joiyn.app to Workers". Until that switch, GitHub Pages still serves the site from `main`.
 
-1. Push this repo to GitHub.
-2. Go to **Settings → Pages**.
-3. Set **Source** to `Deploy from a branch`, branch `main`, folder `/` (root).
-4. Save. With a custom domain configured, the site is published at `https://joiyn.app` (GitHub Pages also serves at `https://<username>.github.io/joiyn-landingpage/` until the custom domain is set).
+| File | Purpose |
+|------|---------|
+| `wrangler.jsonc` | Worker config: assets from the repo root, `html_handling: none` (URLs stay exactly as on GitHub Pages), `404.html` for unknown paths, routes for production and the `rehearsal` env |
+| `.assetsignore` | Files that are not published (`.git`, config, README, `CNAME`) |
+| `_headers` | `Content-Type: application/json` for the AASA |
+| `_redirects` | `/privacy`, `/support`, `/delete-account`, `/child-safety` served without the `.html` (200 rewrites) |
 
-### Option B — deploy from `/docs` folder
+```bash
+npx wrangler dev                   # local preview, http://localhost:8787
+npx wrangler deploy --env=""       # production (or push to main once Workers Builds is connected)
+```
 
-Move all files into a `docs/` sub-folder and set the Pages source to `main / docs`.
-
-### Option C — GitHub Actions
-
-Use the `actions/deploy-pages` workflow for full CI/CD control.
+After the switch, Workers Builds (Cloudflare dashboard → joiyn-landing → Settings → Builds, deploy command `npx wrangler deploy --env=""`) deploys every push to `main`.
 
 ## Event deep links (`/events/*`)
 
@@ -60,7 +61,7 @@ Event invites use `https://joiyn.app/events/{eventId}?...`. These files enable u
 |------|---------|
 | `.well-known/apple-app-site-association` | iOS Universal Links (opens app when installed) |
 | `.well-known/assetlinks.json` | Android App Links verification |
-| `404.html` | GitHub Pages fallback for `/events/*` when the app is not installed |
+| `404.html` | Page for unknown paths; its `/events/*` fallback is replaced by the event page Worker |
 
 ### Before deploy
 
@@ -72,8 +73,10 @@ Event invites use `https://joiyn.app/events/{eventId}?...`. These files enable u
 ```bash
 curl -s https://joiyn.app/.well-known/apple-app-site-association
 curl -s https://joiyn.app/.well-known/assetlinks.json
-curl -sI https://joiyn.app/events/test-id   # should return 404 body from 404.html
+curl -sI https://joiyn.app/events/test-id
 ```
+
+Full check: `npm run verify -- https://joiyn.app --www` in `joiyn-mvp/web/event-page`.
 
 ## File structure
 
@@ -86,7 +89,9 @@ joiyn-landingpage/
 ├── .well-known/
 │   ├── apple-app-site-association
 │   └── assetlinks.json
-├── .nojekyll           # Prevents GitHub Pages Jekyll processing
+├── .nojekyll           # Prevents GitHub Pages Jekyll processing (until GitHub Pages is off)
+├── wrangler.jsonc      # Cloudflare Worker config (static assets)
+├── _headers / _redirects / .assetsignore
 ├── assets/
 │   ├── css/
 │   │   └── styles.css  # All styles (CSS custom properties + responsive)

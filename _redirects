@@ -1,0 +1,6 @@
+# Extensionless URLs worked on GitHub Pages; keep them (200 = rewrite, no redirect).
+/privacy /privacy.html 200
+/support /support.html 200
+/delete-account /delete-account.html 200
+/child-safety /child-safety.html 200
+/ /index.html 200
