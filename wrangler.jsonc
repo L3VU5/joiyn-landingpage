@@ -12,12 +12,5 @@
     "not_found_handling": "404-page"
   },
   "workers_dev": false,
-  "routes": [{ "pattern": "joiyn.app/*", "zone_name": "joiyn.app" }],
-  "env": {
-    // Dress rehearsal on a throwaway subdomain before touching the apex.
-    "rehearsal": {
-      "workers_dev": false,
-      "routes": [{ "pattern": "next.joiyn.app/*", "zone_name": "joiyn.app" }]
-    }
-  }
+  "routes": [{ "pattern": "joiyn.app/*", "zone_name": "joiyn.app" }]
 }
