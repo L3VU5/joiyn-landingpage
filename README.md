@@ -37,21 +37,27 @@ npx serve .
 
 ## Deployment (Cloudflare Workers)
 
-The site is the `joiyn-landing` Worker: static assets only, no code, route `joiyn.app/*`. The event page Worker (`joiyn-mvp/web/event-page`) owns `joiyn.app/events/*` and `joiyn.app/j/*`. The move from GitHub Pages (switch, rollback) is described once, in `joiyn-mvp/web/event-page/README.md` → "Moving joiyn.app to Workers". Until that switch, GitHub Pages still serves the site from `main`.
+The site is the `joiyn-landing` Worker: static assets only, no code, route `joiyn.app/*` (live since Nov 6 2026). The event page Worker (`joiyn-mvp/web/event-page`) owns `joiyn.app/events/*` and `joiyn.app/j/*`. Switch, zone settings and rollback are described once, in `joiyn-mvp/web/event-page/README.md` → "Moving joiyn.app to Workers". GitHub Pages still builds from `main` but no longer serves anything; it is only the rollback.
 
 | File | Purpose |
 |------|---------|
 | `wrangler.jsonc` | Worker config: assets from the repo root, `html_handling: none` (URLs stay exactly as on GitHub Pages), `404.html` for unknown paths, route `joiyn.app/*` |
 | `.assetsignore` | Files that are not published (`.git`, config, README, `CNAME`) |
-| `_headers` | `Content-Type: application/json` for the AASA |
+| `_headers` | `Content-Type: application/json` for the AASA; `charset=utf-8` on HTML, JS and CSS (Workers omits it) |
 | `_redirects` | `/privacy`, `/support`, `/delete-account`, `/child-safety` served without the `.html` (200 rewrites) |
+
+**A push to `main` does not deploy.** Deploy by hand after merging (needs `npx wrangler login` once):
 
 ```bash
 npx wrangler dev                   # local preview, http://localhost:8787
-npx wrangler deploy                # production (or push to main once Workers Builds is connected)
+npx wrangler deploy                # production
+
+# from joiyn-mvp/web/event-page (npm install once):
+node --import tsx scripts/fail-open.ts joiyn-landing    # every deploy resets the route's fail open
+npm run verify -- https://joiyn.app --www --reference-dir ../../../joiyn-landingpage
 ```
 
-After the switch, Workers Builds (Cloudflare dashboard → joiyn-landing → Settings → Builds, deploy command `npx wrangler deploy`) deploys every push to `main`.
+`verify` checks every page byte for byte against this folder, the AASA and `assetlinks.json`, the 404 page, and the http and www redirects. To deploy on push instead, connect Workers Builds (Cloudflare dashboard → Workers & Pages → joiyn-landing → Settings → Builds, deploy command `npx wrangler deploy`); the fail open step then still needs doing by hand.
 
 ## Event deep links (`/events/*`)
 
