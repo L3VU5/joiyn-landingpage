@@ -91,11 +91,11 @@ window.JOIYN_TRANSLATIONS.pl = {
     screenshotsTitle: "Zobacz, jak to wygląda",
     screenshotsSubtitle:
       "Od wyboru zainteresowań po samo spotkanie. Tak Joiyn wygląda w praktyce.",
-    altInterests: "Wybór zainteresowań",
-    altJoin: "Szukanie wydarzeń",
-    altMatches: "Dopasowane wydarzenia w pobliżu",
-    altEvent: "Szczegóły wydarzenia i uczestnicy",
-    altProfile: "Twój profil i zainteresowania",
+    altInterests: "Wybór zainteresowań przy zakładaniu konta",
+    altJoin: "Ekran Dołącz z aktywnością, obszarem wyszukiwania i linkiem do kodu zaproszenia",
+    altMatches: "Wydarzenia biegowe w Krakowie ze zdjęciami i przyciskiem Dołącz",
+    altChat: "Czat grupy przed wieczorem z planszówkami",
+    altStayInTouch: "Po wydarzeniu: wybór osób, z którymi chcesz zostać w kontakcie",
     howEyebrow: "Jak to działa",
     howTitle: "Trzy kroki do następnego spotkania",
     howSubtitle:
