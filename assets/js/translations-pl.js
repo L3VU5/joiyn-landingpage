@@ -68,10 +68,10 @@ window.JOIYN_TRANSLATIONS.pl = {
     featuresEyebrow: "Funkcje",
     featuresTitle: "Wszystko, czego potrzebujesz, żeby poznawać ludzi w okolicy",
     featuresSubtitle:
-      "Przeglądaj wydarzenia, pogadaj z grupą przed spotkaniem i zostań w kontakcie z ludźmi, z którymi złapiesz wspólny język. A gdyby coś było nie tak, zgłoszenie masz zawsze pod ręką.",
+      "Przeglądaj wydarzenia, pogadaj z grupą przed spotkaniem i zostań w kontakcie z ludźmi, z którymi złapiesz wspólny język. A jeśli coś Ci nie pasuje, możesz to zgłosić albo zablokować daną osobę.",
     feature1Title: "Wydarzenia w pobliżu",
     feature1Text:
-      "Zobacz, co dzieje się w Twoim mieście. Filtruj po zainteresowaniach i odległości.",
+      "Zobacz, co dzieje się w Twoim mieście. Filtruj po zainteresowaniach i odległości. Na razie nic nie ma? Dotknij „Powiadom mnie o nowych wydarzeniach”, a damy Ci znać, gdy coś się pojawi.",
     feature2Title: "Wybierz, co lubisz",
     feature2Text:
       "Bieganie, planszówki, bouldering, padel, kawa. Zaznacz swoje aktywności, a Joiyn pokaże Ci pasujące wydarzenia.",
@@ -83,10 +83,10 @@ window.JOIYN_TRANSLATIONS.pl = {
       "Poznaj grupę wcześniej, żeby na miejscu od razu czuć się swobodnie.",
     feature5Title: "Zostań w kontakcie",
     feature5Text:
-      "Po wydarzeniu wybierz osoby, z którymi chcesz się jeszcze spotkać, i bądźcie w kontakcie.",
+      "Po wydarzeniu wybierz osoby, z którymi chcesz się jeszcze spotkać. Jeśli one też wybiorą Ciebie, możecie zapraszać się nawzajem na kolejne wydarzenia.",
     feature6Title: "Zabierz znajomych",
     feature6Text:
-      "Udostępnij wydarzenie na WhatsAppie albo SMS-em. Link otworzy się od razu w Joiyn.",
+      "Udostępnij wydarzenie na WhatsAppie albo SMS-em. Kto ma Joiyn, trafi od razu do wydarzenia w aplikacji. Reszta zobaczy stronę wydarzenia z kodem zaproszenia.",
     screenshotsEyebrow: "Aplikacja",
     screenshotsTitle: "Zobacz, jak to wygląda",
     screenshotsSubtitle:
@@ -102,10 +102,10 @@ window.JOIYN_TRANSLATIONS.pl = {
       "Wybierz zainteresowania, znajdź coś w okolicy i po prostu przyjdź. Tyle.",
     step1Title: "Załóż profil",
     step1Text:
-      "Utwórz konto, wybierz zainteresowania i ustaw lokalizację. Zajmie Ci to jakieś dwie minuty.",
+      "Zarejestruj się przez e-mail, Google albo Apple, potem wybierz zainteresowania i miasto. Zajmie Ci to jakieś dwie minuty.",
     step2Title: "Znajdź coś dla siebie",
     step2Text:
-      "Przeglądaj wydarzenia w swoim mieście i poproś o dołączenie. Gdy organizator Cię zaakceptuje, trafiasz prosto do czatu grupy.",
+      "Przeglądaj wydarzenia w swoim mieście i poproś o dołączenie. Brak miejsc? Dopisz się do listy oczekujących. Gdy organizator Cię zaakceptuje, trafiasz prosto do czatu grupy.",
     step3Title: "Przyjdź i poznaj ludzi",
     step3Text:
       "Spotkajcie się, spędźcie razem czas i zostań w kontakcie z tymi, z którymi nadajesz na tych samych falach.",
@@ -129,6 +129,6 @@ window.JOIYN_TRANSLATIONS.pl = {
     interestLanguage: "Wymiana językowa",
     ctaTitle: "Gotowi na nowe znajomości?",
     ctaSubtitle:
-      "Pobierz Joiyn za darmo i zobacz, co dzieje się w Twojej okolicy. Nowe miasto czy po prostu wolny weekend? Coś się znajdzie.",
+      "Pobierz Joiyn za darmo i zobacz, co dzieje się w Twojej okolicy. Nowe miasto czy po prostu wolny weekend? Coś się znajdzie. Aplikacja jest po polsku, angielsku, niemiecku i ukraińsku.",
   },
 };

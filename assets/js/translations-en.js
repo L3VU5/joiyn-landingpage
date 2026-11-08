@@ -66,10 +66,10 @@ window.JOIYN_TRANSLATIONS.en = {
     featuresEyebrow: "Features",
     featuresTitle: "Everything you need to meet people locally",
     featuresSubtitle:
-      "Browse events, chat with the group before you arrive, and stay in touch with the people you click with. If something ever feels off, reporting is built right in.",
+      "Browse events, chat with the group before you arrive, and stay in touch with the people you click with. If something feels off, you can report it or block the person.",
     feature1Title: "Find events near you",
     feature1Text:
-      "See what's happening around your city, filtered by what you're into and how far you want to go.",
+      "See what's happening around your city, filtered by what you're into and how far you want to go. Nothing there yet? Tap \"Notify me about new events\" and we'll let you know when one shows up.",
     feature2Title: "Pick what you're into",
     feature2Text:
       "Running, board games, bouldering, padel, coffee. Choose your activities and Joiyn shows you events that match.",
@@ -80,10 +80,10 @@ window.JOIYN_TRANSLATIONS.en = {
     feature4Text: "Get to know the group beforehand, so showing up feels easy instead of awkward.",
     feature5Title: "Stay in touch",
     feature5Text:
-      "After the event, pick the people you'd like to see again and keep the conversation going.",
+      "After the event, pick the people you'd like to see again. If they pick you too, you can invite each other to your next events.",
     feature6Title: "Bring your friends",
     feature6Text:
-      "Share an event in WhatsApp or SMS. The link opens straight in Joiyn.",
+      "Share an event on WhatsApp or by text. Friends who have Joiyn go straight to it in the app. Everyone else sees the event page with its invitation code.",
     screenshotsEyebrow: "The app",
     screenshotsTitle: "See what it looks like",
     screenshotsSubtitle:
@@ -98,9 +98,9 @@ window.JOIYN_TRANSLATIONS.en = {
     howSubtitle: "Pick your interests, find something happening nearby, and show up. That's pretty much it.",
     step1Title: "Build your profile",
     step1Text:
-      "Create an account, pick your interests and set your location. It takes about two minutes.",
+      "Sign up with your email, Google or Apple, then pick your interests and your city. It takes about two minutes.",
     step2Title: "Find something you like",
-    step2Text: "Browse events in your city and ask to join. Once the host approves you, you're in the group chat.",
+    step2Text: "Browse events in your city and ask to join. If an event is full, join the waiting list. Once the host approves you, you're in the group chat.",
     step3Title: "Show up & connect",
     step3Text: "Meet the people, have a good time and stay in touch with whoever you click with.",
     activitiesEyebrow: "Activities",
@@ -123,6 +123,6 @@ window.JOIYN_TRANSLATIONS.en = {
     interestLanguage: "Language Exchange",
     ctaTitle: "Ready to meet your people?",
     ctaSubtitle:
-      "Download Joiyn for free and see what's happening near you. New in town or just looking for weekend plans, there's something for you.",
+      "Download Joiyn for free and see what's happening near you. New in town or just looking for weekend plans, there's something for you. Available in English, Polish, German and Ukrainian.",
   },
 };
