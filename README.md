@@ -14,9 +14,24 @@ Marketing website for the [Joiyn](https://joiyn.app) mobile app, served from Clo
 
 Plain HTML + CSS — no build step required.
 
-- **Font:** [Lexend](https://fonts.google.com/specimen/Lexend) (via Google Fonts), matching the mobile app
+- **Font:** [Lexend](https://fonts.google.com/specimen/Lexend), matching the mobile app, self-hosted in `assets/fonts/lexend/` (OFL)
+- **Icons:** [Tabler Icons](https://tabler.io/icons) 3.49.0, self-hosted subset in `assets/fonts/tabler-icons/` (MIT), see below
 - **Colors:** Brand teal `#388F8C`, accent `#FFB980`
 - **Assets:** App icon and illustration copied from the mobile project
+
+## Fonts and icons
+
+Nothing loads from third-party hosts: visitors' IPs only reach Cloudflare.
+
+- Lexend: the latin and latin-ext files Google Fonts serves (one variable font each, weights 400 to 700 used), declared at the top of `assets/css/styles.css`.
+- Tabler Icons: `assets/fonts/tabler-icons/tabler-icons.<hash>.woff2` holds only the icons the pages use, and `assets/css/tabler-icons.css` maps the `ti ti-<name>` classes to it. **After adding a new `ti-...` icon to a page, rebuild both** (needs `fonttools` and `brotli`, e.g. `python3 -m venv .venv && .venv/bin/pip install fonttools brotli`):
+
+  ```bash
+  npm pack @tabler/icons-webfont@3.49.0 && tar xzf tabler-icons-webfont-3.49.0.tgz   # in a scratch folder
+  .venv/bin/python scripts/subset-icons.py path/to/package
+  ```
+
+  `_headers` caches `/assets/fonts/*` for a year, which is safe because the file names change with the content.
 
 ## Local development
 
@@ -42,8 +57,8 @@ The site is the `joiyn-landing` Worker: static assets only, no code, route `joiy
 | File | Purpose |
 |------|---------|
 | `wrangler.jsonc` | Worker config: assets from the repo root, `html_handling: none` (URLs stay exactly as on GitHub Pages), `404.html` for unknown paths, route `joiyn.app/*` |
-| `.assetsignore` | Files that are not published (`.git`, config, README, `CNAME`) |
-| `_headers` | `Content-Type: application/json` for the AASA; `charset=utf-8` on HTML, JS and CSS (Workers omits it) |
+| `.assetsignore` | Files that are not published (`.git`, config, README, `CNAME`, `scripts`) |
+| `_headers` | `Content-Type: application/json` for the AASA; `charset=utf-8` on HTML, JS and CSS (Workers omits it); a year of caching for `/assets/fonts/*` |
 | `_redirects` | `/privacy`, `/support`, `/delete-account`, `/child-safety` served without the `.html` (200 rewrites) |
 
 **A push to `main` does not deploy.** Deploy by hand after merging (needs `npx wrangler login` once):

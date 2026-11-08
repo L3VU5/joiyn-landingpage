@@ -1,0 +1,56 @@
+/*!
+ * Tabler Icons 3.49.0 by tabler, https://tabler.io (MIT, assets/fonts/tabler-icons/LICENSE)
+ * Subset with only the icons these pages use; built by scripts/subset-icons.py.
+ */
+@font-face {
+  font-family: "tabler-icons";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../fonts/tabler-icons/tabler-icons.4d0a84e7d1.woff2") format("woff2");
+}
+.ti {
+  font-family: "tabler-icons" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ti-ball-football:before { content: "\ee06"; }
+.ti-ball-tennis:before { content: "\ec2a"; }
+.ti-ball-volleyball:before { content: "\ec2b"; }
+.ti-beer:before { content: "\efa1"; }
+.ti-bike:before { content: "\ea36"; }
+.ti-book:before { content: "\ea39"; }
+.ti-calendar-plus:before { content: "\ebba"; }
+.ti-clock:before { content: "\ea70"; }
+.ti-coffee:before { content: "\ef0e"; }
+.ti-device-mobile:before { content: "\ea8a"; }
+.ti-heart:before { content: "\eabe"; }
+.ti-heart-handshake:before { content: "\f0f3"; }
+.ti-language:before { content: "\ebbe"; }
+.ti-lock:before { content: "\eae2"; }
+.ti-mail:before { content: "\eae5"; }
+.ti-map:before { content: "\eae9"; }
+.ti-map-pin:before { content: "\eae8"; }
+.ti-message-circle:before { content: "\eaed"; }
+.ti-microphone-2:before { content: "\ef2c"; }
+.ti-mountain:before { content: "\ef97"; }
+.ti-music:before { content: "\eafc"; }
+.ti-palette:before { content: "\eb01"; }
+.ti-puzzle:before { content: "\eb10"; }
+.ti-run:before { content: "\ec82"; }
+.ti-search:before { content: "\eb1c"; }
+.ti-share:before { content: "\eb21"; }
+.ti-shield:before { content: "\eb24"; }
+.ti-star:before { content: "\eb2e"; }
+.ti-target:before { content: "\eb35"; }
+.ti-tools-kitchen-2:before { content: "\eeff"; }
+.ti-trekking:before { content: "\f5ad"; }
+.ti-user-plus:before { content: "\eb4b"; }
+.ti-users:before { content: "\ebf2"; }
+.ti-yoga:before { content: "\f01f"; }

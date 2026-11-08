@@ -9,3 +9,4 @@ CNAME
 .nojekyll
 .DS_Store
 .gitignore
+scripts
