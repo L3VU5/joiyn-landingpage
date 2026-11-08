@@ -75,7 +75,7 @@
     },
     deleteAccount: {
       heroTitle: "Usuń konto",
-      heroSubtitle: "Jak trwale usunąć konto Joiyn i wszystkie powiązane dane.",
+      heroSubtitle: "Jak usunąć konto Joiyn i co dzieje się z Twoimi danymi.",
       updated: "Ostatnia aktualizacja: 16 maja 2026",
     },
     childSafety: {

@@ -74,7 +74,7 @@
     },
     deleteAccount: {
       heroTitle: "Delete Your Account",
-      heroSubtitle: "How to permanently remove your Joiyn account and all associated data.",
+      heroSubtitle: "How to delete your Joiyn account and what happens to your data.",
     },
     childSafety: {
       heroTitle: "Child Safety Standards",

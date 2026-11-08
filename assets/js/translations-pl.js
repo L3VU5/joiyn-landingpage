@@ -21,7 +21,7 @@ window.JOIYN_TRANSLATIONS.pl = {
     },
     deleteAccount: {
       title: "Usuń konto | Joiyn",
-      description: "Jak usunąć konto Joiyn i wszystkie powiązane dane osobowe.",
+      description: "Jak usunąć konto Joiyn i co dzieje się z Twoimi danymi.",
     },
     childSafety: {
       title: "Standardy bezpieczeństwa dzieci | Joiyn",

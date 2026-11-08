@@ -20,7 +20,7 @@ window.JOIYN_TRANSLATIONS.en = {
     },
     deleteAccount: {
       title: "Delete Account | Joiyn",
-      description: "How to delete your Joiyn account and remove all your personal data.",
+      description: "How to delete your Joiyn account and what happens to your data.",
     },
     childSafety: {
       title: "Child Safety Standards | Joiyn",
