@@ -8,30 +8,34 @@
         "Browse our FAQ below. If you can't find what you're looking for, use the contact form and we'll get back to you as soon as possible.",
       faq1q: "How do I create an account?",
       faq1a:
-        'Download Joiyn from the App Store or Google Play, open the app, and tap "Sign Up". Enter your email address, create a password, and verify your email to get started.',
+        "Download Joiyn from the App Store or Google Play and open it. Tap \"New here? Create an account!\" and sign up with your email and a password. We'll email you a code to confirm the address. You can also sign in with Google or Apple instead. You need to be at least 13.",
       faq2q: "How do I find events near me?",
       faq2a:
-        "After setting up your profile and selecting your interests, Joiyn will show you events happening in your city. You can filter by activity type, date, or how far you're willing to travel.",
+        "On the Join tab, pick an activity and a search area (your city or your current location) and tap \"Match\". Filters narrow it down by date and time, group size and cost. If nothing matches yet, tap \"Notify me about new events\" and we'll send you a notification when one is added.",
       faq3q: "How do I join an event?",
       faq3a:
-        'Tap on any event to see details, then tap "Join". The event organiser will receive your request and can approve or decline it. You\'ll be notified of their decision.',
+        "Open the event and tap \"Join\". The host gets your request and approves or declines it, and you get a notification either way. Once you're approved, you see the exact meeting point and the group chat. If the event is full, you can join the waiting list instead. Got an invitation code from a friend? Tap \"Got an invitation code?\" on the Join tab.",
       faq4q: "How do I create my own event?",
       faq4a:
-        'Tap the "+" button on the home screen. Fill in the activity type, location, date and time, and participant limits. Once published, other users can discover and request to join your event.',
-      faq5q: "Can I cancel or leave an event?",
+        "On the Join tab, search for the activity and area you have in mind, then tap \"Create Event\" at the end of the results. Add a photo if you like, then the place, date and time, group size, cost and a few notes. People nearby find it in search and ask to join, and you decide who gets in. To bring friends, send them the event link or its invitation code.",
+      faq5q: "Can I leave an event?",
       faq5a:
-        'Yes. Open the event from your "My Events" tab and tap "Leave Event". If you created the event, you can cancel it entirely and all participants will be notified automatically.',
+        "Yes. Open it from the \"My events\" tab and tap \"Leave Event\". If you're the host, you can pick who takes over when you leave, or let the app pass it on. To call the event off for everyone, use \"End event\": all participants get a notification and the chat closes.",
       faq6q: "How do notifications work?",
       faq6a:
-        "Joiyn sends push notifications for event invites, confirmations, cancellations, and participant updates. You can manage notification permissions in your device settings at any time.",
+        "Joiyn sends push notifications about join requests and approvals, new chat messages, event changes, reminders before your events, and new events that match a search you saved. You can turn each type on or off in Settings, under Notifications, or switch them all off in your phone's settings.",
       faq7q: "How do I delete my account?",
       faq7a:
-        'Go to your profile, open Settings, and select "Delete Account". This will permanently remove your account and all associated data. This action cannot be undone.',
-      faq8q: "How do I report a profile, event, or photo?",
+        "Open the Profile tab and tap the gear icon at the top right to open Settings. In the Account section, tap \"Delete account and data\" and confirm. Your account is deleted right away and you're signed out. This can't be undone.",
+      faq8q: "How do I report a profile, event or photo?",
       faq8a:
-        "Open a user profile or event and use the ⋯ menu to choose Report. For photos (including pictures in event chat), press and hold the image, then Report. Pick a reason and send: the item is hidden for you right away while our team reviews. You can also email us from Settings → Safety & support.",
-      faq9q: "Is Joiyn free to use?",
-      faq9a: "Yes, Joiyn is free. Event discovery, joining events, and in-app chat are all included.",
+        "On a profile, tap the three dots (⋮) at the top right and choose \"Report profile\". On an event, the same three dots open the report form. For a photo, including one in the event chat, press and hold it. Pick a reason and send. The content is hidden for you right away while our team reviews the report. You can also email us from Settings, under Safety & support.",
+      faq9q: "How does blocking work?",
+      faq9a:
+        "Open the person's profile, tap the three dots (⋮) and choose \"Block user\". You can also block someone when you report them, when you remove them from an event you host, or after an event when you choose \"Not for me\". From then on, neither of you can open the other's profile, events hosted by either of you disappear for the other, and they can't join your events (if they try, you get a notification). In an event you're both in, neither of you can send chat messages. We don't tell them you blocked them. You'll find everyone you've blocked in Settings, under Safety & support → Blocked people, where you can also unblock them.",
+      faq10q: "Is Joiyn free to use?",
+      faq10a:
+        "Yes. Finding and joining events, hosting your own and the chat are all free. Some hosts list a cost for the activity itself, like a court booking or an entrance fee. You settle that with the host, not through Joiyn.",
       contactTitle: "Contact Details",
       contactEmailLabel: "Email Support",
       contactTimeLabel: "Response Time",
@@ -61,7 +65,7 @@
       ],
       deleteNoteTitle: "Want to delete your account?",
       deleteNoteHtml:
-        'See our <a href="delete-account.html" style="color:var(--primary);">Account Deletion page</a> for step-by-step instructions. You can also delete directly from the app: <strong>Profile → Settings → Delete Account</strong>.',
+        "See the <a href=\"delete-account.html\" style=\"color:var(--primary);\">Delete account page</a> for the steps and what gets removed. In the app: <strong>Profile → Settings (gear icon) → Account → Delete account and data</strong>.",
       formErrorRequired: "Please fill in all required fields.",
       formSending: "Sending…",
       formSuccess:

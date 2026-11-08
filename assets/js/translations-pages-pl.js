@@ -9,31 +9,34 @@
         "Przejrzyj FAQ poniżej. Jeśli nie znajdziesz odpowiedzi, użyj formularza kontaktowego. Odpowiemy tak szybko, jak to możliwe.",
       faq1q: "Jak założyć konto?",
       faq1a:
-        'Pobierz Joiyn ze sklepu App Store lub Google Play, otwórz aplikację i dotknij „Zarejestruj się”. Podaj adres e-mail, utwórz hasło i potwierdź e-mail, aby zacząć.',
+        "Pobierz Joiyn z App Store albo Google Play i otwórz aplikację. Dotknij „Nie masz konta? Zarejestruj się!” i podaj e-mail oraz hasło. Wyślemy Ci kod, żeby potwierdzić adres. Możesz też zalogować się przez Google albo Apple. Musisz mieć co najmniej 13 lat.",
       faq2q: "Jak znaleźć wydarzenia w pobliżu?",
       faq2a:
-        "Po skonfigurowaniu profilu i wybraniu zainteresowań Joiyn pokaże Ci wydarzenia w Twoim mieście. Możesz filtrować po typie aktywności, dacie lub odległości.",
+        "W zakładce Dołącz wybierz aktywność i obszar (swoje miasto albo bieżącą lokalizację) i dotknij „Szukaj”. W filtrach zawęzisz wyniki po terminie, liczbie osób i kosztach. Jeśli nic jeszcze nie pasuje, dotknij „Powiadom mnie o nowych wydarzeniach”, a wyślemy Ci powiadomienie, gdy coś się pojawi.",
       faq3q: "Jak dołączyć do wydarzenia?",
       faq3a:
-        'Dotknij wydarzenia, aby zobaczyć szczegóły, potem „Dołącz”. Organizator otrzyma Twoją prośbę i może ją zaakceptować lub odrzucić. Otrzymasz powiadomienie o decyzji.',
-      faq4q: "Jak stworzyć własne wydarzenie?",
+        "Otwórz wydarzenie i dotknij „Dołącz”. Organizator dostanie Twoją prośbę i ją zaakceptuje albo odrzuci, a Ty w obu przypadkach dostaniesz powiadomienie. Po akceptacji zobaczysz dokładne miejsce spotkania i czat grupy. Gdy brakuje miejsc, możesz dopisać się do listy oczekujących. Masz kod zaproszenia od znajomego? Dotknij „Masz kod zaproszenia?” w zakładce Dołącz.",
+      faq4q: "Jak zorganizować własne wydarzenie?",
       faq4a:
-        'Dotknij przycisku „+” na ekranie głównym. Uzupełnij typ aktywności, lokalizację, datę i godzinę oraz limity uczestników. Po publikacji inni użytkownicy mogą odkryć wydarzenie i poprosić o dołączenie.',
-      faq5q: "Czy mogę anulować udział lub opuścić wydarzenie?",
+        "W zakładce Dołącz wyszukaj aktywność i obszar, które Cię interesują, a potem dotknij „Utwórz Wydarzenie” na końcu wyników. Dodaj zdjęcie, jeśli chcesz, potem miejsce, datę i godzinę, liczbę osób, koszty i kilka słów od siebie. Ludzie z okolicy znajdą je w wyszukiwarce i poproszą o dołączenie, a Ty decydujesz, kto dołączy. Znajomym wyślij link do wydarzenia albo jego kod zaproszenia.",
+      faq5q: "Czy mogę zrezygnować z wydarzenia?",
       faq5a:
-        'Tak. Otwórz wydarzenie w zakładce „Moje wydarzenia” i dotknij „Opuść wydarzenie”. Własne wydarzenie możesz też całkowicie anulować, a wszyscy uczestnicy automatycznie dostaną powiadomienie.',
+        "Tak. Otwórz je w zakładce „Moje wydarzenia” i dotknij „Opuść wydarzenie”. Jeśli jesteś organizatorem, przy wyjściu możesz wskazać, kto przejmie organizację, albo zostawić to aplikacji. Żeby odwołać wydarzenie dla wszystkich, użyj „Zakończ wydarzenie”: uczestnicy dostaną powiadomienie, a czat się zamknie.",
       faq6q: "Jak działają powiadomienia?",
       faq6a:
-        "Joiyn wysyła powiadomienia push o zaproszeniach, potwierdzeniach, anulowaniach i zmianach uczestników. Możesz nimi zarządzać w ustawieniach urządzenia w dowolnym momencie.",
+        "Joiyn wysyła powiadomienia push o prośbach o dołączenie i akceptacjach, nowych wiadomościach na czacie, zmianach w wydarzeniach, przypomnieniach przed Twoimi wydarzeniami i nowych wydarzeniach pasujących do zapisanych wyszukiwań. Każdy rodzaj włączysz albo wyłączysz w Ustawieniach, w sekcji Powiadomienia. Wszystkie naraz wyłączysz w ustawieniach telefonu.",
       faq7q: "Jak usunąć konto?",
       faq7a:
-        'Przejdź do profilu, otwórz Ustawienia i wybierz „Usuń konto”. Spowoduje to trwałe usunięcie konta i wszystkich powiązanych danych. Tej operacji nie można cofnąć.',
+        "Otwórz zakładkę Profil i dotknij ikony koła zębatego w prawym górnym rogu, żeby wejść w Ustawienia. W sekcji Konto dotknij „Usuń konto i dane” i potwierdź. Konto zostanie usunięte od razu, a aplikacja Cię wyloguje. Tego nie da się cofnąć.",
       faq8q: "Jak zgłosić profil, wydarzenie lub zdjęcie?",
       faq8a:
-        "Na profilu użytkownika lub stronie wydarzenia otwórz menu ⋯ i wybierz „Zgłoś”. Przy zdjęciach (także na czacie wydarzenia) przytrzymaj obraz, potem „Zgłoś”. Wybierz powód i wyślij. Treść od razu znika z Twojego widoku, a zespół ją sprawdza. Możesz też napisać z Ustawienia → Bezpieczeństwo i wsparcie.",
-      faq9q: "Czy Joiyn jest darmowy?",
+        "Na profilu dotknij trzech kropek (⋮) w prawym górnym rogu i wybierz „Zgłoś profil”. W wydarzeniu te same trzy kropki otwierają formularz zgłoszenia. Zdjęcie, także na czacie wydarzenia, przytrzymaj palcem. Wybierz powód i wyślij. Treść od razu znika z Twojego widoku, a nasz zespół sprawdza zgłoszenie. Możesz też napisać do nas z Ustawień, w sekcji Bezpieczeństwo i wsparcie.",
+      faq9q: "Jak działa blokowanie?",
       faq9a:
-        "Tak, Joiyn jest darmowy. Odkrywanie wydarzeń, dołączanie i czat w aplikacji są wliczone w cenę.",
+        "Na profilu tej osoby dotknij trzech kropek (⋮) i wybierz „Zablokuj osobę”. Możesz też zablokować kogoś przy zgłoszeniu, przy usuwaniu z Twojego wydarzenia albo po wydarzeniu, gdy wybierzesz „Nie dla mnie”. Od tej chwili żadne z Was nie otworzy profilu drugiej osoby, wydarzenia organizowane przez jedno z Was znikają drugiemu, a ta osoba nie dołączy do Twoich wydarzeń (jeśli spróbuje, dostaniesz powiadomienie). W wydarzeniu, w którym jesteście oboje, żadne z Was nie może pisać na czacie. Nie informujemy tej osoby o blokadzie. Wszystkie zablokowane osoby znajdziesz w Ustawieniach, w sekcji Bezpieczeństwo i wsparcie → Zablokowane osoby. Tam możesz też kogoś odblokować.",
+      faq10q: "Czy Joiyn jest darmowy?",
+      faq10a:
+        "Tak. Szukanie i dołączanie do wydarzeń, organizowanie własnych i czat są za darmo. Niektórzy organizatorzy podają koszt samej aktywności, np. rezerwację kortu albo bilet wstępu. Rozliczacie się wtedy z organizatorem, nie przez Joiyn.",
       contactTitle: "Dane kontaktowe",
       contactEmailLabel: "Wsparcie e-mail",
       contactTimeLabel: "Czas odpowiedzi",
@@ -63,7 +66,7 @@
       ],
       deleteNoteTitle: "Chcesz usunąć konto?",
       deleteNoteHtml:
-        'Zobacz stronę <a href="delete-account.html" style="color:var(--primary);">Usuń konto</a> po instrukcje krok po kroku. Możesz też usunąć konto w aplikacji: <strong>Profil → Ustawienia → Usuń konto</strong>.',
+        "Kroki i to, co usuwamy, znajdziesz na stronie <a href=\"delete-account.html\" style=\"color:var(--primary);\">Usuń konto</a>. W aplikacji: <strong>Profil → Ustawienia (ikona koła zębatego) → Konto → Usuń konto i dane</strong>.",
       formErrorRequired: "Wypełnij wszystkie wymagane pola.",
       formSending: "Wysyłanie…",
       formSuccess:

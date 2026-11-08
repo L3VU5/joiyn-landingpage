@@ -16,7 +16,7 @@ window.JOIYN_TRANSLATIONS.en = {
     support: {
       title: "Support | Joiyn",
       description:
-        "Get help with Joiyn: FAQs, contact options, and how to report profiles, events, or photos.",
+        "Get help with Joiyn: FAQs, contact options, and how to report or block someone.",
     },
     deleteAccount: {
       title: "Delete Account | Joiyn",

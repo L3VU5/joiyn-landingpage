@@ -17,7 +17,7 @@ window.JOIYN_TRANSLATIONS.pl = {
     support: {
       title: "Pomoc | Joiyn",
       description:
-        "Pomoc dla Joiyn: FAQ, kontakt i zgłaszanie profili, wydarzeń lub zdjęć.",
+        "Pomoc w Joiyn: FAQ, kontakt oraz zgłaszanie i blokowanie osób.",
     },
     deleteAccount: {
       title: "Usuń konto | Joiyn",
