@@ -84,7 +84,7 @@
     },
     privacy: {
       heroTitle: "Polityka prywatności",
-      updated: "Ostatnia aktualizacja: 5 listopada 2026",
+      updated: "Ostatnia aktualizacja: 8 listopada 2026",
     },
   });
 })();

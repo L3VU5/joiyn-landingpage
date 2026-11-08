@@ -82,7 +82,7 @@
     },
     privacy: {
       heroTitle: "Privacy Policy",
-      updated: "Last updated: November 5, 2026",
+      updated: "Last updated: November 8, 2026",
     },
   });
 })();
