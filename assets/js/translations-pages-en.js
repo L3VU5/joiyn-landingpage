@@ -87,5 +87,9 @@
       heroTitle: "Privacy Policy",
       updated: "Last updated: November 10, 2026",
     },
+    terms: {
+      heroTitle: "Terms of Service",
+      updated: "Last updated: November 10, 2026",
+    },
   });
 })();

@@ -14,6 +14,10 @@ window.JOIYN_TRANSLATIONS.pl = {
       description:
         "Polityka prywatności Joiyn: jak zbieramy, wykorzystujemy i chronimy Twoje dane osobowe.",
     },
+    terms: {
+      title: "Regulamin | Joiyn",
+      description: "Regulamin Joiyn: zasady korzystania z aplikacji w prostych słowach.",
+    },
     support: {
       title: "Pomoc | Joiyn",
       description:

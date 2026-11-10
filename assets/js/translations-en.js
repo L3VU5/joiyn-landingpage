@@ -13,6 +13,10 @@ window.JOIYN_TRANSLATIONS.en = {
       title: "Privacy Policy | Joiyn",
       description: "Joiyn Privacy Policy: how we collect, use, and protect your personal information.",
     },
+    terms: {
+      title: "Terms of Service | Joiyn",
+      description: "Joiyn Terms of Service: the rules for using the app, in plain language.",
+    },
     support: {
       title: "Support | Joiyn",
       description:
