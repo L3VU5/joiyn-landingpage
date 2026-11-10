@@ -43,6 +43,7 @@ window.JOIYN_TRANSLATIONS.pl = {
     footerApp: "Aplikacja",
     footerLegal: "Prawo i pomoc",
     footerPrivacy: "Polityka prywatności",
+    footerTerms: "Regulamin",
     footerChildSafety: "Bezpieczeństwo dzieci",
     footerDeleteAccount: "Usuń konto",
     footerRights: "© 2026 Joiyn. Wszelkie prawa zastrzeżone.",

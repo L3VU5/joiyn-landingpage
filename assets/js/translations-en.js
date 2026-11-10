@@ -41,6 +41,7 @@ window.JOIYN_TRANSLATIONS.en = {
     footerApp: "App",
     footerLegal: "Legal & Help",
     footerPrivacy: "Privacy Policy",
+    footerTerms: "Terms of Service",
     footerChildSafety: "Child Safety",
     footerDeleteAccount: "Delete Account",
     footerRights: "© 2026 Joiyn. All rights reserved.",
