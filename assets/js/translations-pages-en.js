@@ -14,7 +14,7 @@
         "On the Join tab, pick an activity and a search area (your city or your current location) and tap \"Match\". Filters narrow it down by date and time, group size and cost. If nothing matches yet, tap \"Notify me about new events\" and we'll send you a notification when one is added.",
       faq3q: "How do I join an event?",
       faq3a:
-        "Open the event and tap \"Join\". The host gets your request and approves or declines it, and you get a notification either way. Once you're approved, you see the exact meeting point and the group chat. If the event is full, you can join the waiting list instead. Got an invitation code from a friend? Tap \"Got an invitation code?\" on the Join tab.",
+        "Open the event and tap \"Join\". The host gets your request and approves or declines it, and you get a notification either way. Once you're approved, you see the exact meeting point and the group chat. If the event is full, you can join the waiting list instead. Got an invitation code from a friend? Tap \"Got an invitation code?\" on the Join tab. Once you're in, add the event to your phone's calendar in one tap.",
       faq4q: "How do I create my own event?",
       faq4a:
         "On the Join tab, search for the activity and area you have in mind, then tap \"Create Event\" at the end of the results. Add a photo if you like, then the place, date and time, group size, cost and a few notes. People nearby find it in search and ask to join, and you decide who gets in. To bring friends, send them the event link or its invitation code.",
@@ -32,10 +32,13 @@
         "On a profile, tap the three dots (⋮) at the top right and choose \"Report profile\". On an event, the same three dots open the report form. For a photo, including one in the event chat, press and hold it. Pick a reason and send. The content is hidden for you right away while our team reviews the report. You can also email us from Settings, under Safety & support.",
       faq9q: "How does blocking work?",
       faq9a:
-        "Open the person's profile, tap the three dots (⋮) and choose \"Block user\". You can also block someone when you report them, when you remove them from an event you host, or after an event when you choose \"Not for me\". From then on, neither of you can open the other's profile, events hosted by either of you disappear for the other, and they can't join your events (if they try, you get a notification). In an event you're both in, neither of you can send chat messages. We don't tell them you blocked them. You'll find everyone you've blocked in Settings, under Safety & support → Blocked people, where you can also unblock them.",
+        "Open the person's profile, tap the three dots (⋮) and choose \"Block user\". You can also block someone when you report them, when you remove them from an event you host, or after an event when you choose \"Not for me\". They aren't told. They see your profile without your about me and languages, neither of you finds the other's events in search, and their join requests are marked in red. Events you're both already in, chat included, work as usual. You'll find everyone you've blocked in Settings, under Safety & support → Blocked people, where you can also unblock them.",
       faq10q: "Is Joiyn free to use?",
       faq10a:
         "Yes. Finding and joining events, hosting your own and the chat are all free. Some hosts list a cost for the activity itself, like a court booking or an entrance fee. You settle that with the host, not through Joiyn.",
+      faq11q: "Can I send GIFs and react to messages?",
+      faq11a:
+        "Send a GIF straight from the chat, powered by Klipy. Press and hold a message to react with an emoji.",
       contactTitle: "Contact Details",
       contactEmailLabel: "Email Support",
       contactTimeLabel: "Response Time",
@@ -82,7 +85,7 @@
     },
     privacy: {
       heroTitle: "Privacy Policy",
-      updated: "Last updated: November 8, 2026",
+      updated: "Last updated: November 10, 2026",
     },
   });
 })();

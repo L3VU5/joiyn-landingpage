@@ -80,10 +80,10 @@ window.JOIYN_TRANSLATIONS.pl = {
       "Stwórz wydarzenie w minutę: miejsce, godzina, liczba osób i kilka słów od Ciebie. To Ty decydujesz, kto dołączy.",
     feature4Title: "Pogadaj przed spotkaniem",
     feature4Text:
-      "Poznaj grupę wcześniej, żeby na miejscu od razu czuć się swobodnie.",
+      "Poznaj grupę wcześniej, żeby na miejscu od razu czuć się swobodnie. Wyślij GIF-a prosto z czatu, przez Klipy. Przytrzymaj wiadomość, żeby zareagować emoji.",
     feature5Title: "Zostań w kontakcie",
     feature5Text:
-      "Po wydarzeniu wybierz osoby, z którymi chcesz się jeszcze spotkać. Jeśli one też wybiorą Ciebie, możecie zapraszać się nawzajem na kolejne wydarzenia.",
+      "Po wydarzeniu wybierz osoby, z którymi chcesz się jeszcze spotkać. Jeśli one też wybiorą Ciebie, możecie zapraszać się nawzajem na kolejne wydarzenia. Zobacz, ile wydarzeń ktoś zorganizował i w ilu brał udział, i gdzie już się spotkaliście.",
     feature6Title: "Zabierz znajomych",
     feature6Text:
       "Udostępnij wydarzenie na WhatsAppie albo SMS-em. Kto ma Joiyn, trafi od razu do wydarzenia w aplikacji. Reszta zobaczy stronę wydarzenia z kodem zaproszenia.",

@@ -15,7 +15,7 @@
         "W zakładce Dołącz wybierz aktywność i obszar (swoje miasto albo bieżącą lokalizację) i dotknij „Szukaj”. W filtrach zawęzisz wyniki po terminie, liczbie osób i kosztach. Jeśli nic jeszcze nie pasuje, dotknij „Powiadom mnie o nowych wydarzeniach”, a wyślemy Ci powiadomienie, gdy coś się pojawi.",
       faq3q: "Jak dołączyć do wydarzenia?",
       faq3a:
-        "Otwórz wydarzenie i dotknij „Dołącz”. Organizator dostanie Twoją prośbę i ją zaakceptuje albo odrzuci, a Ty w obu przypadkach dostaniesz powiadomienie. Po akceptacji zobaczysz dokładne miejsce spotkania i czat grupy. Gdy brakuje miejsc, możesz dopisać się do listy oczekujących. Masz kod zaproszenia od znajomego? Dotknij „Masz kod zaproszenia?” w zakładce Dołącz.",
+        "Otwórz wydarzenie i dotknij „Dołącz”. Organizator dostanie Twoją prośbę i ją zaakceptuje albo odrzuci, a Ty w obu przypadkach dostaniesz powiadomienie. Po akceptacji zobaczysz dokładne miejsce spotkania i czat grupy. Gdy brakuje miejsc, możesz dopisać się do listy oczekujących. Masz kod zaproszenia od znajomego? Dotknij „Masz kod zaproszenia?” w zakładce Dołącz. Gdy już jesteś na liście, dodaj wydarzenie do kalendarza jednym dotknięciem.",
       faq4q: "Jak zorganizować własne wydarzenie?",
       faq4a:
         "W zakładce Dołącz wyszukaj aktywność i obszar, które Cię interesują, a potem dotknij „Utwórz Wydarzenie” na końcu wyników. Dodaj zdjęcie, jeśli chcesz, potem miejsce, datę i godzinę, liczbę osób, koszty i kilka słów od siebie. Ludzie z okolicy znajdą je w wyszukiwarce i poproszą o dołączenie, a Ty decydujesz, kto dołączy. Znajomym wyślij link do wydarzenia albo jego kod zaproszenia.",
@@ -33,10 +33,13 @@
         "Na profilu dotknij trzech kropek (⋮) w prawym górnym rogu i wybierz „Zgłoś profil”. W wydarzeniu te same trzy kropki otwierają formularz zgłoszenia. Zdjęcie, także na czacie wydarzenia, przytrzymaj palcem. Wybierz powód i wyślij. Treść od razu znika z Twojego widoku, a nasz zespół sprawdza zgłoszenie. Możesz też napisać do nas z Ustawień, w sekcji Bezpieczeństwo i wsparcie.",
       faq9q: "Jak działa blokowanie?",
       faq9a:
-        "Na profilu tej osoby dotknij trzech kropek (⋮) i wybierz „Zablokuj osobę”. Możesz też zablokować kogoś przy zgłoszeniu, przy usuwaniu z Twojego wydarzenia albo po wydarzeniu, gdy wybierzesz „Nie dla mnie”. Od tej chwili żadne z Was nie otworzy profilu drugiej osoby, wydarzenia organizowane przez jedno z Was znikają drugiemu, a ta osoba nie dołączy do Twoich wydarzeń (jeśli spróbuje, dostaniesz powiadomienie). W wydarzeniu, w którym jesteście oboje, żadne z Was nie może pisać na czacie. Nie informujemy tej osoby o blokadzie. Wszystkie zablokowane osoby znajdziesz w Ustawieniach, w sekcji Bezpieczeństwo i wsparcie → Zablokowane osoby. Tam możesz też kogoś odblokować.",
+        "Na profilu tej osoby dotknij trzech kropek (⋮) i wybierz „Zablokuj osobę”. Możesz też zablokować kogoś przy zgłoszeniu, przy usuwaniu z Twojego wydarzenia albo po wydarzeniu, gdy wybierzesz „Nie dla mnie”. Ta osoba się nie dowie. Widzi Twój profil bez opisu i języków, nie znajdujecie nawzajem swoich wydarzeń w wyszukiwaniu, a jej prośby o dołączenie są oznaczone na czerwono. Wydarzenia, w których już razem jesteście, działają normalnie, łącznie z czatem. Wszystkie zablokowane osoby znajdziesz w Ustawieniach, w sekcji Bezpieczeństwo i wsparcie → Zablokowane osoby. Tam możesz też kogoś odblokować.",
       faq10q: "Czy Joiyn jest darmowy?",
       faq10a:
         "Tak. Szukanie i dołączanie do wydarzeń, organizowanie własnych i czat są za darmo. Niektórzy organizatorzy podają koszt samej aktywności, np. rezerwację kortu albo bilet wstępu. Rozliczacie się wtedy z organizatorem, nie przez Joiyn.",
+      faq11q: "Czy mogę wysyłać GIF-y i reagować na wiadomości?",
+      faq11a:
+        "Wyślij GIF-a prosto z czatu, przez Klipy. Przytrzymaj wiadomość, żeby zareagować emoji.",
       contactTitle: "Dane kontaktowe",
       contactEmailLabel: "Wsparcie e-mail",
       contactTimeLabel: "Czas odpowiedzi",
@@ -84,7 +87,7 @@
     },
     privacy: {
       heroTitle: "Polityka prywatności",
-      updated: "Ostatnia aktualizacja: 8 listopada 2026",
+      updated: "Ostatnia aktualizacja: 10 listopada 2026",
     },
   });
 })();

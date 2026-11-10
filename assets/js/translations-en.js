@@ -77,10 +77,11 @@ window.JOIYN_TRANSLATIONS.en = {
     feature3Text:
       "Set up an event in a minute: place, time, group size and a few words from you. You decide who joins.",
     feature4Title: "Chat before you meet",
-    feature4Text: "Get to know the group beforehand, so showing up feels easy instead of awkward.",
+    feature4Text:
+      "Get to know the group beforehand, so showing up feels easy instead of awkward. Send a GIF straight from the chat, powered by Klipy. Press and hold a message to react with an emoji.",
     feature5Title: "Stay in touch",
     feature5Text:
-      "After the event, pick the people you'd like to see again. If they pick you too, you can invite each other to your next events.",
+      "After the event, pick the people you'd like to see again. If they pick you too, you can invite each other to your next events. See how many events someone has hosted and attended, and where you've met before.",
     feature6Title: "Bring your friends",
     feature6Text:
       "Share an event on WhatsApp or by text. Friends who have Joiyn go straight to it in the app. Everyone else sees the event page with its invitation code.",
